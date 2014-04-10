@@ -1,0 +1,18 @@
+surface
+AQSIS_V 2
+
+
+segment Data
+
+USES 393219
+
+
+
+segment Init
+
+
+segment Code
+	pushv Cs
+	pop Ci
+	pushv Os
+	pop Oi
