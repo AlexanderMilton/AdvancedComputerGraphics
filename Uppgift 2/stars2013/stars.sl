@@ -3,19 +3,23 @@
 
 float fBm (point p; uniform float octaves, lacunarity, gain)
 {
-  uniform float amp = 1;
-  varying point pp = p;
-  varying float sum = 0;
-  uniform float i;
+	uniform float amp = 1;
+	varying point pp = p;
+	varying float sum = 0;
+	uniform float i;
 
-  for (i = 0;  i < octaves;  i += 1) {
-    sum += amp * snoise (pp);
-    amp *= gain;
-    pp *= lacunarity;
-  }
-  return sum;
+	for (i = 0;  i < octaves;  i += 1) {
+		sum += amp * snoise (pp);
+		amp *= gain;
+		pp *= lacunarity;
+	}
+	return sum;
 }
 
+// The Worley cell noise function that creates cells and measures the distance between them
+// and offsetting them by random values. This creates an irregular "noisy" cell pattern.
+// We utilize these scattered cells by inverting and narrowing their color values, creating a realistic
+// and spectacular night sky texture with distant, glowing stars.
 void voronoi_f1f2_2d (float ss, tt; output float f1; output float spos1, tpos1; output float f2; output float spos2, tpos2;)
 {
 	float jitter=1.0;
@@ -56,29 +60,41 @@ f1 = sqrt(f1);  f2 = sqrt(f2);
 
 surface stars(
 	color white 				= (1.0, 1.0, 1.0); 	// White color
-	color darkgrey 				= (0.5, 0.5, 0.5); 	// Dark grey color
+	color grey 					= (0.5, 0.5, 0.5); 	// Grey color
 	color black 				= (0.0, 0.0, 0.0); 	// Black color
 	float frequency				= (1.0);
 	float starlightThreshold 	= (0.1);
+	float lacunarity			= (3.0);
+	float octaves				= (6.0);
+	float gain					= (0.75);
 )
 {
-
+	//
 	float f1;
 	float spos1, tpos1; 
 	float f2; 
 	float spos2, tpos2;
 	
+	//
 	voronoi_f1f2_2d(s*0.1, t*0.1, f1, spos1, tpos1, f2, spos2, tpos2);
 	
+	// Create two smoothsteps to manage the strength and fade of the starlight
+	// The second smoothstep will take an in-parameter to control the total light strength
 	float f1a;
 	float f1b; 
 	f1a = smoothstep(0.05, 0.15, f1);
 	f1b = smoothstep(0.05, starlightThreshold, f1)*0.5;
-	
+	// Sum and invert the two smoothsteps to gain a potent center light for effect
 	f1 = 1 - (f1a+f1b);
 	
-	color newColor = f1 * darkgrey;
+	// Darken the color range by applying a gray color
+	color newColor = f1 * grey;
 	
+	//
+	float fBm1 = fBm(P, octaves, lacunarity, gain);
+	newColor = (newColor * fbm1);
+	
+	//
 	Ci = Cs * newColor;
 	Oi = Os;
 } 
