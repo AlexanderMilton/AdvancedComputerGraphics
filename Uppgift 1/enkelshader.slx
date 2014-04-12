@@ -1,0 +1,134 @@
+surface
+AQSIS_V 2
+
+
+segment Data
+
+USES 420098
+
+param uniform  color purple
+param uniform  color orange
+param uniform  color white
+param uniform  float frequency
+param uniform  float diffuseStrength
+param uniform  float roughness
+param uniform  float bumpheight
+param uniform  float f
+varying  float segments
+varying  float alignedMeridian
+varying  float f1
+varying  float f2
+varying  float f3
+varying  normal normalValue
+varying  color baseColor
+varying  color whitedBaseColor
+varying  color diffusedColor
+
+
+segment Init
+	pushif 0.600000024
+	pushif 0
+	pushif 0.5
+	settc
+	pop purple
+	pushif 0
+	pushif 0.200000003
+	pushif 0.600000024
+	settc
+	pop orange
+	pushif 1
+	pushif 1
+	pushif 1
+	settc
+	pop white
+	pushif 4
+	pop frequency
+	pushif 0.899999976
+	pop diffuseStrength
+	pushif 0.100000001
+	pop roughness
+	pushif 0.800000012
+	pop bumpheight
+	pushif 0.100000001
+	pop f
+
+
+segment Code
+	pushif 1
+	pushv frequency
+	pushv s
+	mulff
+	mod
+	pop segments
+	pushif 1
+	pushif 0.125
+	pushv frequency
+	pushv s
+	mulff
+	addff
+	mod
+	pop alignedMeridian
+	pushv segments
+	pushif 0.5
+	pushif 0.25
+	smoothstep
+	pop f1
+	pushv segments
+	pushif 1
+	pushif 0.75
+	smoothstep
+	pop f2
+	pushv v
+	pushv f
+	pushif 0.0649999976
+	pushv f
+	subff
+	smoothstep
+	pop f3
+	pushv bumpheight
+	setfp
+	pushv N
+	pushv frequency
+	setfp
+	pushv P
+	mulpp
+	noise3
+	mulfp
+	mulpp
+	pushv alignedMeridian
+	pushif 0.5
+	step
+	mulfp
+	pushv P
+	addpp
+	pop P
+	pushv P
+	calculatenormal
+	pop N
+	pushv N
+	normalize
+	pop normalValue
+	pushv f2
+	pushv f1
+	subff
+	pushv purple
+	pushv orange
+	cmix
+	pop baseColor
+	pushv f3
+	pushv baseColor
+	pushv white
+	cmix
+	pop whitedBaseColor
+	pushv diffuseStrength
+	pushv normalValue
+	diffuse
+	pushv whitedBaseColor
+	mulcc
+	pushv whitedBaseColor
+	cmix
+	pop diffusedColor
+	pushv diffusedColor
+	pop Ci
+	pushv Os
+	pop Oi
