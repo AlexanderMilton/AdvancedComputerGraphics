@@ -62,11 +62,13 @@ surface stars(
 	color white 				= (1.0, 1.0, 1.0); 	// White color
 	color grey 					= (0.5, 0.5, 0.5); 	// Grey color
 	color black 				= (0.0, 0.0, 0.0); 	// Black color
+	color red 					= (1.0, 0.0, 0.2); 	// Red color
+	color blue	 				= (0.2, 0.0, 1.0); 	// Blue color
 	float frequency				= (1.0);
-	float starlightThreshold 	= (0.1);
-	float lacunarity			= (3.0);
-	float octaves				= (6.0);
-	float gain					= (0.75);
+	float starlightThreshold 	= (0.8);
+	float lacunarity			= (2.0);
+	float octaves				= (2.0);
+	float gain					= (0.4);
 )
 {
 	//
@@ -91,8 +93,13 @@ surface stars(
 	color newColor = f1 * grey;
 	
 	//
-	float fBm1 = fBm(P, octaves, lacunarity, gain);
-	newColor = (newColor * fbm1);
+	float fBm1 = clamp( abs(fBm(P*0.05, octaves, lacunarity, gain) ), 0, 1);
+	newColor = (newColor * fBm1);
+	
+	//
+	color fBm2a = clamp(fBm((P+332.23)*0.05, 5, lacunarity, gain), 0, 1)*red;
+	color fBm2b = clamp(fBm((P+182.778)*0.05, 5, lacunarity, gain), 0, 1)*blue;
+	newColor = (newColor + fBm2a + fBm2b);
 	
 	//
 	Ci = Cs * newColor;

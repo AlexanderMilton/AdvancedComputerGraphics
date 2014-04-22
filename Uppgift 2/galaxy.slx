@@ -1,0 +1,81 @@
+surface
+AQSIS_V 2
+
+
+segment Data
+
+USES 405506
+
+param uniform  float stripeFrequency
+param uniform  float ovalFactor
+varying  float uu
+varying  float vv
+varying  point p1
+varying  point p2
+varying  float dist
+varying  float spirals
+
+
+segment Init
+	pushif 16
+	pop stripeFrequency
+	pushif 3.5
+	pop ovalFactor
+
+
+segment Code
+	pushv stripeFrequency
+	pushif 0.5
+	pushv u
+	subff
+	mulff
+	pop uu
+	pushv stripeFrequency
+	pushif 0.5
+	pushv v
+	subff
+	mulff
+	pop vv
+	pushif 0
+	pushv vv
+	pushv uu
+	settp
+	pop p1
+	pushif 0
+	pushif 0
+	pushif 0
+	settp
+	pop p2
+	pushv p2
+	pushv p1
+	distance
+	pop dist
+	pushif 1.57000005
+	pushv dist
+	pushv ovalFactor
+	pushv vv
+	mulff
+	pushv uu
+	atan2
+	addff
+	mod
+	pushif 0.699999988
+	step
+	pop spirals
+	pushif 1
+	pushif 0
+	pushv dist
+	pushif 4
+	pushif 1
+	smoothstep
+	pushif 1
+	subff
+	clamp
+	pushv spirals
+	mulff
+	pop spirals
+	pushv spirals
+	setfc
+	pop Ci
+	pushv Os
+	pop Oi
