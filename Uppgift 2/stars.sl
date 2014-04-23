@@ -16,8 +16,8 @@ float fBm (point p; uniform float octaves, lacunarity, gain)
 	return sum;
 }
 
-// The Worley cell noise function that creates cells and measures the distance between them
-// and offsetting them by random values. This creates an irregular "noisy" cell pattern.
+// The Worley cell noise function creates cells and measures the distance between them,
+// offsetting them by random values. This creates an irregular "noisy" cell pattern.
 // We utilize these scattered cells by inverting and narrowing their color values, creating a realistic
 // and spectacular night sky texture with distant, glowing stars.
 void voronoi_f1f2_2d (float ss, tt; output float f1; output float spos1, tpos1; output float f2; output float spos2, tpos2;)
@@ -64,44 +64,46 @@ surface stars(
 	color black 				= (0.0, 0.0, 0.0); 	// Black color
 	color red 					= (1.0, 0.0, 0.2); 	// Red color
 	color blue	 				= (0.2, 0.0, 1.0); 	// Blue color
-	float frequency				= (1.0);
-	float starlightThreshold 	= (0.8);
-	float lacunarity			= (2.0);
-	float octaves				= (2.0);
-	float gain					= (0.4);
+	float starlightIntensity 	= (1.0);			// Modifies the intensity of the starlight
+	float lacunarity			= (6.0);			// Level of "gappiness" or inhomogeneity
+	float octaves				= (2.0);			// 
+	float gain					= (0.4);			// 
 )
 {
-	//
+	// Initiate variables to be used as parameters for the Worley Noise Cell algorithm
 	float f1;
 	float spos1, tpos1; 
 	float f2; 
 	float spos2, tpos2;
 	
-	//
+	// Execute the Worley Cell Noise algorithm
 	voronoi_f1f2_2d(s*0.1, t*0.1, f1, spos1, tpos1, f2, spos2, tpos2);
 	
 	// Create two smoothsteps to manage the strength and fade of the starlight
 	// The second smoothstep will take an in-parameter to control the total light strength
 	float f1a;
 	float f1b; 
-	f1a = smoothstep(0.05, 0.15, f1);
-	f1b = smoothstep(0.05, starlightThreshold, f1)*0.5;
+	f1a = smoothstep(0.05 * starlightIntensity, 0.15, f1);
+	f1b = smoothstep(0.05 * starlightIntensity, 0.8, f1) * 0.5;
+	
 	// Sum and invert the two smoothsteps to gain a potent center light for effect
 	f1 = 1 - (f1a+f1b);
 	
 	// Darken the color range by applying a gray color
 	color newColor = f1 * grey;
 	
-	//
+	// Mesh the stars to give the scene more realism
 	float fBm1 = clamp( abs(fBm(P*0.05, octaves, lacunarity, gain) ), 0, 1);
 	newColor = (newColor * fBm1);
 	
-	//
-	color fBm2a = clamp(fBm((P+332.23)*0.05, 5, lacunarity, gain), 0, 1)*red;
-	color fBm2b = clamp(fBm((P+182.778)*0.05, 5, lacunarity, gain), 0, 1)*blue;
+	// Add red and blue nebula clouds and neatly layer them together
+	// Mesh the clouds to give them a naturally irregular appearance
+	// Remember to move the point P in different directions to spread the mesh layers
+	color fBm2a = clamp(fBm((P+231)*0.05, 5, lacunarity, gain), 0, 1)*red;
+	color fBm2b = clamp(fBm((P-231)*0.05, 5, lacunarity, gain), 0, 1)*blue;
 	newColor = (newColor + fBm2a + fBm2b);
 	
-	//
+	// Finalize the output by adding the color
 	Ci = Cs * newColor;
 	Oi = Os;
 } 

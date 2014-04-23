@@ -1,7 +1,7 @@
 
 surface enkelshader(
 	color purple 			= 	(0.5, 0.0, 0.6); 	// Purple color
-	color orange			= 	(0.6, 0.2, 0.0); 	// Orange color
+	color red				= 	(0.6, 0.05, 0.05);	// Red color
 	color white 			= 	(1.0, 1.0, 1.0); 	// White color
 	float frequency 		= 	(4.0);				// Frequency of meridians (stripes) in the sphere
 	float diffuseStrength	= 	(0.9);				// Value defining the intensity of the light being shed on the object
@@ -27,9 +27,9 @@ surface enkelshader(
 	// Calculate the normal of the shape
 	normal normalValue = normalize(N);
 	
-	// Create a base color mix constisting of orange and purple, smoothly blending them using the f1 and f2 smoothstep intervals
+	// Create a base color mix constisting of red and purple, smoothly blending them using the f1 and f2 smoothstep intervals
 	// Create a new color mix, adding white to the base mix amd switching/blending between the interval of the third parameter f3
-	color baseColor = mix(orange, purple, f1-f2);
+	color baseColor = mix(red, purple, f1-f2);
 	color whitedBaseColor = mix (white, baseColor, f3);
 	
 	// Diffuse the color to a defined intesity by multiplying it with a diffuse function

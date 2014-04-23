@@ -7,7 +7,7 @@ segment Data
 USES 420098
 
 param uniform  color purple
-param uniform  color orange
+param uniform  color red
 param uniform  color white
 param uniform  float frequency
 param uniform  float diffuseStrength
@@ -31,11 +31,11 @@ segment Init
 	pushif 0.5
 	settc
 	pop purple
-	pushif 0
-	pushif 0.200000003
+	pushif 0.0500000007
+	pushif 0.0500000007
 	pushif 0.600000024
 	settc
-	pop orange
+	pop red
 	pushif 1
 	pushif 1
 	pushif 1
@@ -112,7 +112,7 @@ segment Code
 	pushv f1
 	subff
 	pushv purple
-	pushv orange
+	pushv red
 	cmix
 	pop baseColor
 	pushv f3

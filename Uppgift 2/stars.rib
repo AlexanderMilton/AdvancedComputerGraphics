@@ -1,6 +1,6 @@
-Display "galaxy.tif" "file" "rgba"
+Display "6_lacunarity.tif" "file" "rgba"
 
-Format 480 360 -1
+Format 720 640 -1
 PixelSamples 2 2
 Projection "perspective" "fov" 45
 Clipping  10 1000

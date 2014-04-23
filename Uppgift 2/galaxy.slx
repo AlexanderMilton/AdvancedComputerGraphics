@@ -4,10 +4,12 @@ AQSIS_V 2
 
 segment Data
 
-USES 405506
+USES 405504
 
-param uniform  float stripeFrequency
+param uniform  float reachFrequency
 param uniform  float ovalFactor
+param uniform  float galaxySize
+param uniform  color galaxyColor
 varying  float uu
 varying  float vv
 varying  point p1
@@ -17,20 +19,27 @@ varying  float spirals
 
 
 segment Init
-	pushif 16
-	pop stripeFrequency
+	pushif 12
+	pop reachFrequency
 	pushif 3.5
 	pop ovalFactor
+	pushif 0.5
+	pop galaxySize
+	pushif 0.0450000018
+	pushif 0.400000006
+	pushif 0
+	settc
+	pop galaxyColor
 
 
 segment Code
-	pushv stripeFrequency
+	pushv reachFrequency
 	pushif 0.5
 	pushv u
 	subff
 	mulff
 	pop uu
-	pushv stripeFrequency
+	pushv reachFrequency
 	pushif 0.5
 	pushv v
 	subff
@@ -59,14 +68,18 @@ segment Code
 	atan2
 	addff
 	mod
-	pushif 0.699999988
+	pushif 1.20000005
 	step
 	pop spirals
 	pushif 1
 	pushif 0
 	pushv dist
+	pushv galaxySize
 	pushif 4
+	mulff
+	pushv galaxySize
 	pushif 1
+	mulff
 	smoothstep
 	pushif 1
 	subff
@@ -74,8 +87,26 @@ segment Code
 	pushv spirals
 	mulff
 	pop spirals
+	pushif 1
+	pushif 0
+	pushv dist
+	pushv galaxySize
+	pushif 3.5
+	mulff
+	pushv galaxySize
+	pushif 0.800000012
+	mulff
+	smoothstep
+	pushif 1
+	subff
+	clamp
+	pushv spirals
+	addff
+	pop spirals
+	pushv galaxyColor
+	pushv spirals
+	mulfc
+	pop Ci
 	pushv spirals
 	setfc
-	pop Ci
-	pushv Os
 	pop Oi
