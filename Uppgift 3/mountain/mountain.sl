@@ -199,7 +199,7 @@ surface mountain (
 	outputColor = Cs*(outputColor * diffuse(Nf));
 
 	// Create fog
-	float d = 1 - exp(-length(I)/fogDistance);
+	float d = 1 - exp((-length(I) + 100)/fogDistance);
 	outputColor = mix (outputColor, fogColor, d);
 	
 	
