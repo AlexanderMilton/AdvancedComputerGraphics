@@ -66,8 +66,8 @@ surface stars(
 	color blue	 				= (0.2, 0.0, 1.0); 	// Blue color
 	float starlightIntensity 	= (1.0);			// Modifies the intensity of the starlight
 	float lacunarity			= (6.0);			// Level of "gappiness" or inhomogeneity
-	float octaves				= (2.0);			// 
-	float gain					= (0.4);			// 
+	float octaves				= (2.0);			// Number of noise layers to be summed
+	float gain					= (0.4);			// The level of effective contribution by each layer
 )
 {
 	// Initiate variables to be used as parameters for the Worley Noise Cell algorithm
@@ -93,7 +93,7 @@ surface stars(
 	color newColor = f1 * grey;
 	
 	// Mesh the stars to give the scene more realism
-	float fBm1 = clamp( abs(fBm(P*0.05, octaves, lacunarity, gain) ), 0, 1);
+	float fBm1 = clamp(abs(fBm(P * 0.05, octaves, lacunarity, gain)), 0, 1);
 	newColor = (newColor * fBm1);
 	
 	// Add red and blue nebula clouds and neatly layer them together

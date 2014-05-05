@@ -118,13 +118,13 @@ surface mountain (
 	color	rock			= (0.96,	0.96, 	0.82	);
 	color	haze			= (0.9,		0.9,	0.9		);
 	
-	float waterOctaves		= (2.5);			// 
+	float waterOctaves		= (2.5);			// Number of noise layers to be summed
 	float waterLacunarity	= (3.25);			// Level of "gappiness" or inhomogeneity
-	float waterGain			= (0.55);			// 
+	float waterGain			= (0.55);			// The level of effective contribution by each layer
 	
-	float grassOctaves		= (5.0);			// 
+	float grassOctaves		= (5.0);			// Number of noise layers to be summed
 	float grassLacunarity	= (1.4);			// Level of "gappiness" or inhomogeneity
-	float grassGain			= (0.8);			// 
+	float grassGain			= (0.8);			// The level of effective contribution by each layer
 	
 	float bumpFrequency		= (40.0);			// The frequency of the bump mapped irregularity
 	float bumpHeight		= (5.8);			// The depth of the texture bumps
