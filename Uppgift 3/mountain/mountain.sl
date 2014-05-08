@@ -207,6 +207,5 @@ surface mountain (
 	// Output
     Ci = outputColor;
     Oi = Os;  
-
-    
+   
 }
