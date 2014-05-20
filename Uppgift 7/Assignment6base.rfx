@@ -905,19 +905,34 @@
    >
 ]>
 <RENDER_MONKEY>
- <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.Position" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
+ <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.Screen-Aligned Quad" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
   <RmRegistryBranch NAME="RM_REGISTRY" API="" XML_VERSION="RenderMonkey 1.71">
    <RmRegistryBranch NAME="RM_LOCAL" API="" XML_VERSION="RenderMonkey 1.71">
     <RmRegistryBranch NAME="RM_PLUGIN" API="" XML_VERSION="RenderMonkey 1.71"><RmTextDataBlock TYPE="TEXT"><![CDATA[
-<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>13</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>13</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>3</Pane-1><Pane-2>4</Pane-2><Pane-3>5</Pane-3><Pane-4>6</Pane-4><Pane-5>7</Pane-5><Pane-6>8</Pane-6><Panes>6</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-5><Pane-6><Type>1</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-6><Pane-7><Type>1</Type><DockingCX>331</DockingCX><DockingCY>174</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-7><Pane-8><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>9</Pane-1><Pane-2>14</Pane-2><Panes>2</Panes></Pane-8><Pane-9><Type>2</Type><DockingCX>0</DockingCX><DockingCY>763</DockingCY><Horiz>1</Horiz><Pane-1>10</Pane-1><Pane-2>12</Pane-2><Pane-3>13</Pane-3><Panes>3</Panes></Pane-9><Pane-10><Type>1</Type><DockingCX>183</DockingCX><DockingCY>250</DockingCY><Selected>11</Selected><Panes>1</Panes><Pane-1>11</Pane-1></Pane-10><Pane-11><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>10</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>10</LastHolder></Pane-11><Pane-12><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-12><Pane-13><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-13><Pane-14><Type>1</Type><DockingCX>250</DockingCX><DockingCY>166</DockingCY><Selected>15</Selected><Panes>1</Panes><Pane-1>15</Pane-1></Pane-14><Pane-15><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>14</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>14</LastHolder></Pane-15><Pane-16><Type>0</Type><DockingCX>331</DockingCX><DockingCY>174</DockingCY><Title>fLight1Pos</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>19</FloatingHolder><LastHolder>19</LastHolder></Pane-16><Pane-17><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>18</TopContaner><WindowRectTopPos>26</WindowRectTopPos><WindowRectBottomPos>233</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>353</WindowRectRightPos></Pane-17><Pane-18><Type>2</Type><DockingCX>331</DockingCX><DockingCY>174</DockingCY><Horiz>1</Horiz><Pane-1>19</Pane-1><Panes>1</Panes></Pane-18><Pane-19><Type>1</Type><DockingCX>331</DockingCX><DockingCY>174</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-19><Pane-20><Type>0</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Title>shadowB</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>6</DockingHolder><FloatingHolder>23</FloatingHolder><LastHolder>23</LastHolder></Pane-20><Pane-21><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>22</TopContaner><WindowRectTopPos>123</WindowRectTopPos><WindowRectBottomPos>300</WindowRectBottomPos><WindowRectLeftPos>35</WindowRectLeftPos><WindowRectRightPos>485</WindowRectRightPos></Pane-21><Pane-22><Type>2</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Horiz>1</Horiz><Pane-1>23</Pane-1><Panes>1</Panes></Pane-22><Pane-23><Type>1</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-23><Pane-24><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>Area</Title><ID>1102</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>5</DockingHolder><FloatingHolder>27</FloatingHolder><LastHolder>27</LastHolder></Pane-24><Pane-25><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>26</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>435</WindowRectRightPos></Pane-25><Pane-26><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>27</Pane-1><Panes>1</Panes></Pane-26><Pane-27><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-27><Pane-28><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>uLightColor</Title><ID>1103</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>31</FloatingHolder><LastHolder>31</LastHolder></Pane-28><Pane-29><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>30</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-29><Pane-30><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>31</Pane-1><Panes>1</Panes></Pane-30><Pane-31><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-31><Pane-32><Type>0</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Title>uLightColor</Title><ID>1104</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>35</FloatingHolder><LastHolder>35</LastHolder></Pane-32><Pane-33><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>34</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>332</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>201</WindowRectRightPos></Pane-33><Pane-34><Type>2</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Horiz>1</Horiz><Pane-1>35</Pane-1><Panes>1</Panes></Pane-34><Pane-35><Type>1</Type><DockingCX>201</DockingCX><DockingCY>310</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-35><Summary><TopContainer>2</TopContainer><Client>12</Client><Panes>35</Panes></Summary></Application_Layout></DockingPaneLayouts>
+<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>10</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>10</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>3</Pane-1><Pane-2>4</Pane-2><Pane-3>5</Pane-3><Panes>3</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>6</Pane-1><Pane-2>11</Pane-2><Panes>2</Panes></Pane-5><Pane-6><Type>2</Type><DockingCX>0</DockingCX><DockingCY>779</DockingCY><Horiz>1</Horiz><Pane-1>7</Pane-1><Pane-2>9</Pane-2><Pane-3>10</Pane-3><Panes>3</Panes></Pane-6><Pane-7><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>8</Selected><Panes>1</Panes><Pane-1>8</Pane-1></Pane-7><Pane-8><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>7</LastHolder></Pane-8><Pane-9><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-9><Pane-10><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-10><Pane-11><Type>1</Type><DockingCX>250</DockingCX><DockingCY>150</DockingCY><Selected>12</Selected><Panes>1</Panes><Pane-1>12</Pane-1></Pane-11><Pane-12><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>11</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>11</LastHolder></Pane-12><Pane-13><Type>0</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Title>bapa</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>16</FloatingHolder><LastHolder>16</LastHolder></Pane-13><Pane-14><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>15</TopContaner><WindowRectTopPos>26</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>427</WindowRectRightPos></Pane-14><Pane-15><Type>2</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Horiz>1</Horiz><Pane-1>16</Pane-1><Panes>1</Panes></Pane-15><Pane-16><Type>1</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-16><Pane-17><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>Area</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>20</FloatingHolder><LastHolder>20</LastHolder></Pane-17><Pane-18><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>19</TopContaner><WindowRectTopPos>30</WindowRectTopPos><WindowRectBottomPos>140</WindowRectBottomPos><WindowRectLeftPos>8</WindowRectLeftPos><WindowRectRightPos>443</WindowRectRightPos></Pane-18><Pane-19><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>20</Pane-1><Panes>1</Panes></Pane-19><Pane-20><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-20><Summary><TopContainer>2</TopContainer><Client>9</Client><Panes>20</Panes></Summary></Application_Layout></DockingPaneLayouts>
 ]]></RmTextDataBlock>
+     <RmRegistryBranch NAME="RmTextureObjectEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="154" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="203" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="718" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="466" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
+      </RmRegistryBranch>
+      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
+     </RmRegistryBranch>
      <RmRegistryBranch NAME="RmPreviewGLWindow" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EffectPlacementRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Position" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="862" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="862" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="733" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="749" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -926,7 +941,7 @@
       </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmStreamEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="Effect Workspace.Position.Stream Mapping" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.streamMap" API="" XML_VERSION="RenderMonkey 1.71">
        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="641" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -935,14 +950,6 @@
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-      </RmRegistryBranch>
-     </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmDynamicVariableEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.fLight1Pos" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1100" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmBooleanVariable NAME="ShowSetup" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="TRUE"/>
-       </RmRegistryBranch>
       </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmPreviewDx9Window" API="" XML_VERSION="RenderMonkey 1.71"/>
@@ -957,7 +964,17 @@
      <RmRegistryBranch NAME="RmRenderableTextureEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.renderTexture" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.Lighting" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="210" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="356" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
+       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.Colorized" API="" XML_VERSION="RenderMonkey 1.71">
         <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="210" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -972,11 +989,11 @@
      <RmRegistryBranch NAME="RmRenderTargetEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Position.Pass 0.renderTexture" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.Render.Lighting" API="" XML_VERSION="RenderMonkey 1.71">
         <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="239" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="242" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="238" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -985,45 +1002,30 @@
       </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmShaderEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="Effect Workspace.Position" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 Fragment Program]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Pass 2]]></RmTextDataBlock></RmStringVariable>
-       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="862" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="733" MIN="-10" MAX="10" CLAMP="FALSE"/>
+BlurY]]></RmTextDataBlock></RmStringVariable>
+       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="749" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-7" MIN="-10" MAX="10" CLAMP="FALSE"/>
       </RmRegistryBranch>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmRenderStateBlockEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Position" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="59" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="32" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1286" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="395" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
-      </RmRegistryBranch>
-     </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmTextureObjectEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
-      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Position" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="22" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="29" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="88" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1264" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="466" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="474" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1039,450 +1041,334 @@ Pass 2]]></RmTextDataBlock></RmStringVariable>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmScalarEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.shadowB" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1101" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
        <RmRegistryBranch NAME="Effect Workspace.Area" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1102" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
-      </RmRegistryBranch>
-     </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmColorEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.uLightColor" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1104" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmBooleanVariable NAME="FloatingPoint" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="FALSE"/>
-        <RmIntegerVariable NAME="ColorType" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmBooleanVariable NAME="LargeSize" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="TRUE"/>
+        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1101" MIN="-10" MAX="10" CLAMP="FALSE"/>
        </RmRegistryBranch>
       </RmRegistryBranch>
      </RmRegistryBranch>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-20/5/2014 14:11:34]]></RmTextDataBlock></RmStringVariable>
+20/5/2014 14:11:27]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey 1.71]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="BASE_WORKSPACE_PATH" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-P:\GitHub\AdvancedComputerGraphics\Uppgift 6\]]></RmTextDataBlock></RmStringVariable>
+P:\GitHub\AdvancedComputerGraphics\Uppgift 7\]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
    </RmRegistryBranch>
   </RmRegistryBranch>
-  <RmOpenGLEffect NAME="Position" API="OpenGL" ACTIVE_CAMERA="">
-   <RmStreamMap NAME="Stream Mapping" API="">
-    <RmStream NAME="Stream" API="" STRIDE="32">
+  <RmOpenGLEffect NAME="Screen-Aligned Quad" API="OpenGL" ACTIVE_CAMERA="">
+   <Rm2DTextureVariable NAME="base" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="TVNoise4.png" ORIGIN="0"/>
+   <Rm2DTextureVariable NAME="ColorizeTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="1D2DTexture.png" ORIGIN="0"/>
+   <RmRenderableTexture NAME="Lighting" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+   <RmRenderableTexture NAME="Colorized" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+   <RmRenderableTexture NAME="BlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+   <RmRenderableTexture NAME="BlurY" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+   <RmStreamMap NAME="streamMap" API="">
+    <RmStream NAME="" API="" STRIDE="32">
      <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
-     <RmStreamChannel NAME="Normal_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="3" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Normal"/>
      <RmStreamChannel NAME="TexCoord_0" API="" DATA_SIZE="8" DATA_TYPE="1" REGISTER="0" USAGE="5" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_TexCoord0"/>
+     <RmStreamChannel NAME="Normal_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="3" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Normal"/>
     </RmStream>
    </RmStreamMap>
-   <RmModelData NAME="Model" API="" FILE_NAME=".\ElephantBody.3ds" ORIENTATION="0"/>
-   <RmModelData NAME="Disc2" API="" FILE_NAME=".\Disc.3ds" ORIENTATION="0"/>
-   <RmGLPass NAME="Pass 1" API="OpenGL" PASS_INDEX="1" ENABLED="TRUE">
-    <RmModelReference NAME="Disc2" API=""/>
-    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-uniform mat4 matProjection;
-uniform mat4 matView;
-uniform mat4 matViewProjection;
-uniform vec3 fLight1Pos;
-
-varying vec3 vLightVec;
-varying vec4 shadowCoord;
-
-varying vec3 vLightPos;
-varying vec3 vLightDir;
-varying vec3 vNormal;
-
-/*
-
-   sPos.z += 10;
-   Out.shadowCrd.x = 0.5 * (sPos.z + sPos.x);
-   Out.shadowCrd.y = 0.5 * (sPos.z - sPos.y);
-   Out.shadowCrd.z = 0;
-   Out.shadowCrd.w = sPos.z;
-*/
-
-void main(void)
-{
-
-   // We move platform out of the way
-   vec4 vertex=gl_Vertex;
-   vertex.xz*=2.0;
-   vertex.y-=38.0;                                                                                           
-
-   // Compute projected position from viewpoint of light
-   
-   // Direction Vector of Light
-   vec3 dirZ = normalize(-fLight1Pos);
-   vec3 up = vec3(0.0,0.0,1.0);
-   vec3 dirX = cross(up,dirZ);
-   vec3 dirY = cross(dirZ,dirX);
-   
-   // Transform object to Light Coordinate System
-   vec4 pos;
-   vec3 inpos = vertex.xyz-fLight1Pos;
-   pos.x = dot(dirX,inpos);
-   pos.y = dot(dirY,inpos);
-   pos.z = dot(dirZ,inpos);
-   pos.w = 1.0;
-   
-   vec4 shadowPos=matProjection*pos;
-
-   shadowPos.z += 1.0;
-   shadowCoord.x = 0.5 * (shadowPos.z + shadowPos.x);
-   shadowCoord.y = 0.5 * (shadowPos.z - shadowPos.y);
-   shadowCoord.z = 0.0;
-   shadowCoord.w = shadowPos.z;
-
-   vLightVec = vertex.xyz-fLight1Pos;
-
-   vertex = gl_ModelViewProjectionMatrix * vertex; 
-   gl_Position = vertex;   
-   
-   vLightDir = -vec3(gl_ModelViewProjectionMatrix * vec4(fLight1Pos, 1.0));
-   vNormal = gl_NormalMatrix * gl_Normal;
-}]]></RmShaderCode></RmGLShader>
-    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
-uniform sampler2D ShadowMapTexture;        
-
-uniform float shadowB;
-uniform float Area;
-
-uniform vec4 uLightColor;
-
-varying vec4 shadowCoord;
-varying vec3 vLightVec;
-
-varying vec3 vLightPos;
-varying vec3 vLightDir;
-varying vec3 vNormal;
-
-float unpack (vec4 colour)
-{
-   const vec4 bitShifts = vec4(1.0 / (256.0 * 256.0 * 256.0), 1.0 / (256.0 * 256.0),1.0 / 256.0, 1);
-   return dot(colour , bitShifts);
-}
-
-void main(void)
-{
-   float depth = length(vLightVec)/10000.0;
-   
-   float ShadowMap;
-   float shadow;
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4( 0.0, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4( 1.0*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(-1.0*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0,  1.0*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, -1.0*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0,  1.0*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, -1.0*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0,  1.0*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0, -1.0*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4( 1.5*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(-1.5*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0,  1.5*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, -1.5*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0,  1.5*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, -1.5*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0,  1.5*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0, -1.5*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-  
-   shadow /= 17;
-
-   vec3 N = normalize(vNormal);
-   vec3 L = normalize(vLightDir);
-
-   // Lambert Diffuse Lighting
-   float diffuse = clamp(dot(N, -L), 0.0, 1.0);
-   
-   vec4 output = clamp(vec4( 0.3, 1.0, 0.3, 1.0 ) * diffuse * shadow * uLightColor, 0.0, 1.0);
-   
-   gl_FragColor = output;
-}]]></RmShaderCode></RmGLShader>
-    <RmStreamMapReference NAME="Stream Mapping" API=""/>
-    <RmTextureObject NAME="ShadowMapTexture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="renderTexture" API=""/>
-     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="2" USAGE="SAMPLER_STATE"/>
-     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="2" USAGE="SAMPLER_STATE"/>
-    </RmTextureObject>
-    <RmSampler NAME="ShadowMapTexture" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="Area" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="fLight1Pos" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="matProjection" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="shadowB" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="uLightColor" API="" REGISTER="-1"/>
-   </RmGLPass>
-   <RmGLPass NAME="Pass 0" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
-    <RmModelReference NAME="Model" API=""/>
+   <RmModelData NAME="ElephantBody" API="" FILE_NAME=".\ElephantBody.3ds" ORIENTATION="0"/>
+   <RmModelData NAME="Quad" API="" FILE_NAME=".\ScreenAlignedQuad.3ds" ORIENTATION="0"/>
+   <RmGLPass NAME="Render" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
+    <RmModelReference NAME="ElephantBody" API=""/>
     <RmRenderStateBlock NAME="Render State" API="OpenGL">
-     <RmState NAME="GL_CullMode" API="OpenGL" STATE="8" VALUE="3" USAGE="RENDER_STATE"/>
+     <RmState NAME="GL_CullMode" API="OpenGL" STATE="8" VALUE="1" USAGE="RENDER_STATE"/>
      <RmState NAME="GL_DepthEnable" API="OpenGL" STATE="44" VALUE="1" USAGE="RENDER_STATE"/>
     </RmRenderStateBlock>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec3 vLightPos;
 
-uniform vec4 uLightColor;
+varying vec3 vLightDir;
+varying vec3 vNormal;
+varying vec3 vEyeVec;
 
-vec4 pack (float depth)
-{
-   const vec4 bitSh = vec4(256.0 * 256.0 * 256.0, 256.0 * 256.0, 256.0, 1.0);
-   const vec4 bitMsk = vec4(0, 1.0 / 256.0, 1.0 / 256.0, 1.0 / 256.0);
-   vec4 comp = fract(depth * bitSh);
-   comp -= comp.xxyz * bitMsk;
-   return comp;
-}
-         
 void main(void)
 {
-   float Depth = length(vLightPos) / 10000.0;
-   vec4 packedDepth = pack(Depth);
-   
-   
-   gl_FragColor = packedDepth; 
+      vec3 L = normalize(vLightDir);
+      vec3 N = normalize(vNormal);
+      vec3 E = normalize(vEyeVec);
+      
+      // Lambert Diffuse Lighting
+      float diffuse = clamp(dot(N, -L), 0.0, 1.0);
+                     
+      // Rim Lighting
+      float rimlight = smoothstep(0.5, 0.05, dot(N, E));
+               
+      // Add Rim Lighting to Diffuse Component
+      vec4 finalColor = vec4(diffuse + rimlight, rimlight, rimlight, 1.0);
+      finalColor *= vec4(1.0, 1.0, 0.5, 1.0);
+      
+      gl_FragColor = finalColor;
+         
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
 
-uniform mat4 matProjection;
-uniform mat4 matView;
-uniform mat4 matViewProjection;
-uniform vec3 fLight1Pos;
+uniform vec3 uLight1Position;
 
-void main(void)
-{
-   // Direction Vector of Light
-   vec3 dirZ = normalize(fLight1Pos);
-   vec3 up = vec3(0.0, 0.0, 1.0);
-   vec3 dirX = cross(up, dirZ);
-   vec3 dirY = cross(dirZ, dirX);
-   
-   // Transform object to Light Coordinate System
-   vec4 pos;
-   vec3 inpos = gl_Vertex.xyz-fLight1Pos;
-   pos.x = dot(dirX,inpos);
-   pos.y = dot(dirY,inpos);
-   pos.z = dot(dirZ,inpos);
-   pos.w = 1.0;
-   
+varying vec3 vLightDir;
+varying vec3 vNormal;
+varying vec3 vEyeVec;
+
+void main( void )
+{ 
+       
    vec4 vertex = gl_ModelViewProjectionMatrix * gl_Vertex;
    gl_Position = vertex;
    
-   gl_Position = pos * matProjection;
-}]]></RmShaderCode></RmGLShader>
-    <RmRenderTarget NAME="renderTexture" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
-    <RmStreamMapReference NAME="Stream Mapping" API=""/>
-    <RmShaderConstant NAME="fLight1Pos" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="matProjection" API="" REGISTER="-1"/>
+   vLightDir = -vec3(gl_ModelViewMatrix * vec4(uLight1Position, 0.0));
+   vNormal = gl_NormalMatrix * gl_Normal;
+   vEyeVec = -vec3(gl_ModelViewMatrix * gl_Vertex);
+
+}
+]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="Lighting" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="streamMap" API=""/>
+    <RmShaderConstant NAME="uLight1Position" API="" REGISTER="-1"/>
    </RmGLPass>
-   <RmGLPass NAME="Pass 2" API="OpenGL" PASS_INDEX="2" ENABLED="TRUE">
-    <RmModelReference NAME="Model" API=""/>
+   <RmGLPass NAME="Colorize" API="OpenGL" PASS_INDEX="1" ENABLED="TRUE">
+    <RmModelReference NAME="Quad" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-uniform mat4 matProjection;
-uniform mat4 matView;
-uniform mat4 matViewProjection;
-uniform vec3 fLight1Pos;
-
-varying vec3 vLightVec;
-varying vec4 shadowCoord;
-
-varying vec3 vLightPos;
-varying vec3 vLightDir;
-varying vec3 vNormal;
+varying vec2  texCoord;
 
 void main(void)
-{   
-   // We move platform out of the way
-   vec4 vertex=gl_Vertex;                                                                                         
-
-   // Compute projected position from viewpoint of light
-   
-   // Direction Vector of Light
-   vec3 dirZ = normalize(-fLight1Pos);
-   vec3 up = vec3(0.0,0.0,1.0);
-   vec3 dirX = cross(up,dirZ);
-   vec3 dirY = cross(dirZ,dirX);
-   
-   // Transform object to Light Coordinate System
-   vec4 pos;
-   vec3 inpos = vertex.xyz-fLight1Pos;
-   pos.x = dot(dirX,inpos);
-   pos.y = dot(dirY,inpos);
-   pos.z = dot(dirZ,inpos);
-   pos.w = 1.0;
-   
-   vec4 shadowPos=matProjection*pos;
-
-   shadowPos.z += 1.0;
-   shadowCoord.x = 0.5 * (shadowPos.z + shadowPos.x);
-   shadowCoord.y = 0.5 * (shadowPos.z - shadowPos.y);
-   shadowCoord.z = 0.0;
-   shadowCoord.w = shadowPos.z;
-
-   vLightVec = vertex.xyz-fLight1Pos;
-
-   vertex = gl_ModelViewProjectionMatrix * vertex; 
-   gl_Position = vertex;
-   
-   vLightDir = -vec3(gl_ModelViewProjectionMatrix * vec4(fLight1Pos, 1.0));
-   vNormal = gl_NormalMatrix * gl_Normal;
-   
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+    
+   // Texture coordinate for screen aligned (in correct range):
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
+      
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Colorizer;
+uniform sampler2D LitTexture;
 
-varying vec3 vNormal;
-varying vec3 vLightDir;
-varying vec3 vEyeVec;
+uniform float bapa;
 
-uniform sampler2D ShadowMapTexture;        
-
-uniform float shadowB;
-uniform float Area;
-
-uniform vec4 uLightColor;
-
-varying vec4 shadowCoord;
-varying vec3 vLightVec;
-
-float unpack (vec4 colour)
-{
-   const vec4 bitShifts = vec4(1.0 / (256.0 * 256.0 * 256.0), 1.0 / (256.0 * 256.0),1.0 / 256.0, 1);
-   return dot(colour , bitShifts);
-}
+varying vec2 texCoord;
 
 void main(void)
 {
-   float depth = length(vLightVec)/10000.0;
+   float dist=texture2D(LitTexture,texCoord).x;
    
-   float ShadowMap;
-   float shadow;
+   vec2 tex = texCoord;
    
+   tex.x=1.0-clamp(dist, 0.01, 0.99);
+   tex.y=1.0-(distance(vec2(0.5, 0.5),texCoord) * 1.4);
    
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4( 0.0, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4( 1.0*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(-1.0*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0,  1.0*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, -1.0*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0,  1.0*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, -1.0*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0,  1.0*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0, -1.0*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4( 1.5*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(-1.5*Area, 0.0, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0,  1.5*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, -1.5*Area, 0.0, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0,  1.5*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, -1.5*Area, 0.0)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0,  1.5*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-
-   ShadowMap =  unpack(texture2DProj(ShadowMapTexture, shadowCoord + vec4(0.0, 0.0, 0.0, -1.5*Area)));
-   shadow += float(depth < (ShadowMap - shadowB));
-  
-   shadow /= 17;
-   
-   vec3 N = normalize(vNormal);
-   vec3 L = normalize(vLightDir);
-
-   // Lambert Diffuse Lighting
-   float diffuse = clamp(dot(N,-L), 0.0, 1.0);
-   
-   vec4 output = clamp(vec4( 0.9, 0.4, 0.9, 1.0 ) * diffuse * shadow * uLightColor, 0.0, 1.0);
-   
-   gl_FragColor = output;
+   vec4 outcol=texture2D(Colorizer, tex);
+   gl_FragColor = vec4(vec3(outcol.xyz), 1.0);
 }]]></RmShaderCode></RmGLShader>
-    <RmStreamMapReference NAME="Stream Mapping" API=""/>
-    <RmTextureObject NAME="ShadowMapTexture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="renderTexture" API=""/>
-     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="2" USAGE="SAMPLER_STATE"/>
-     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="2" USAGE="SAMPLER_STATE"/>
+    <RmRenderTarget NAME="Colorized" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="streamMap" API=""/>
+    <RmTextureObject NAME="LitTexture" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="Lighting" API=""/>
     </RmTextureObject>
-    <RmSampler NAME="ShadowMapTexture" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="Area" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="fLight1Pos" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="matProjection" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="shadowB" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="uLightColor" API="" REGISTER="-1"/>
+    <RmTextureObject NAME="Colorizer" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="ColorizeTexture" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="Colorizer" API="" REGISTER="-1"/>
+    <RmSampler NAME="LitTexture" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="BlurX" API="OpenGL" PASS_INDEX="2" ENABLED="TRUE">
+    <RmModelReference NAME="Quad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2 texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+    
+   // Texture coordinate for screen aligned (in correct range):
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );;
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Intex;
+uniform float Time;
+
+varying vec2 texCoord;
+uniform float Area;
+
+float kernel[11];
+float offset[11];
+
+void main(void)
+{
+   kernel[0]  = 0.0;
+   kernel[1]  = 0.0001;
+   kernel[2]  = 0.0044;
+   kernel[3]  = 0.054;
+   kernel[4]  = 0.242;
+   kernel[5]  = 0.3989;
+   kernel[6]  = 0.242;
+   kernel[7]  = 0.054;
+   kernel[8]  = 0.0044;
+   kernel[9]  = 0.0001;
+   kernel[10] = 0.0;
+
+   offset[0]  = vec2( -4,	0 	);
+   offset[1]  = vec2( -3, 	0 	);
+   offset[2]  = vec2( -2,	0 	);
+   offset[3]  = vec2( -1,	0 	);
+   offset[4]  = vec2( -0.5,0 	);
+   offset[5]  = vec2( 0,	0 	);
+   offset[6]  = vec2( 0.5,	0 	);
+   offset[7]  = vec2( 1,	0 	);
+   offset[8]  = vec2( 2,	0 	);
+   offset[9]  = vec2( 3,	0 	);
+   offset[10]  = vec2( 4,	0	);
+   
+   texCoord += (vec2( Intex + (offset[0]  * Area)) * kernel[0];
+   texCoord += (vec2( Intex + (offset[1]  * Area)) * kernel[1];
+   texCoord += (vec2( Intex + (offset[2]  * Area)) * kernel[2];
+   texCoord += (vec2( Intex + (offset[3]  * Area)) * kernel[3];
+   texCoord += (vec2( Intex + (offset[4]  * Area)) * kernel[4];
+   texCoord += (vec2( Intex + (offset[5]  * Area)) * kernel[5];
+   texCoord += (vec2( Intex + (offset[6]  * Area)) * kernel[6];
+   texCoord += (vec2( Intex + (offset[7]  * Area)) * kernel[7];
+   texCoord += (vec2( Intex + (offset[8]  * Area)) * kernel[8];
+   texCoord += (vec2( Intex + (offset[9]  * Area)) * kernel[9];
+   texCoord += (vec2( Intex + (offset[10] * Area)) * kernel[10];
+   
+	texCoord /= 11.0;
+   
+	vec4 outCol=texture2D( Intex, texCoord );
+	gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="BlurX" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="streamMap" API=""/>
+    <RmTextureObject NAME="Intex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="Colorized" API=""/>
+    </RmTextureObject>
+   </RmGLPass>
+   <RmGLPass NAME="BlurY" API="OpenGL" PASS_INDEX="3" ENABLED="TRUE">
+    <RmModelReference NAME="Quad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2 texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+    
+   // Texture coordinate for screen aligned (in correct range):
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Intex;
+uniform float Time;
+
+varying vec2 texCoord;
+uniform float Area;
+
+float kernel[11];
+float offset[11];
+
+void main(void)
+{
+   kernel[0]  = 0.0;
+   kernel[1]  = 0.0001;
+   kernel[2]  = 0.0044;
+   kernel[3]  = 0.0540;
+   kernel[4]  = 0.2420;
+   kernel[5]  = 0.3989;
+   kernel[6]  = 0.2420;
+   kernel[7]  = 0.0540;
+   kernel[8]  = 0.0044;
+   kernel[9]  = 0.0001;
+   kernel[10] = 0.0;
+
+   offset[0]  = vec2( 0,	-4		);
+   offset[1]  = vec2( 0,	-3		);
+   offset[2]  = vec2( 0,	-2		);
+   offset[3]  = vec2( 0,	-1		);
+   offset[4]  = vec2( 0,	0.5 	);
+   offset[5]  = vec2( 0,	0 		);
+   offset[6]  = vec2( 0,	0.5 	);
+   offset[7]  = vec2( 0,	1 		);
+   offset[8]  = vec2( 0,	2 		);
+   offset[9]  = vec2( 0,	3 		);
+   offset[10] = vec2( 0,	4 		);
+   
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[0]  * Area)) * kernel[0];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[1]  * Area)) * kernel[1];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[2]  * Area)) * kernel[2];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[3]  * Area)) * kernel[3];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[4]  * Area)) * kernel[4];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[5]  * Area)) * kernel[5];;
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[6]  * Area)) * kernel[6];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[7]  * Area)) * kernel[7];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[8]  * Area)) * kernel[8];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[9]  * Area)) * kernel[9];
+   texCoord += (vec2( gl_Position.x, gl_Position.y ) + (offset[10] * Area)) * kernel[10];
+   
+   texCoord /= 11.0; 
+   
+	vec4 outCol=texture2D( Intex, texCoord );
+	gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="BlurY" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="streamMap" API=""/>
+    <RmTextureObject NAME="Intex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="Colorized" API=""/>
+    </RmTextureObject>
+   </RmGLPass>
+   <RmGLPass NAME="DarkenPass" API="OpenGL" PASS_INDEX="4" ENABLED="TRUE">
+    <RmModelReference NAME="Quad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2  texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+    
+   // Texture coordinate for screen aligned (in correct range):
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
+      
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D BlurX;
+uniform sampler2D BlurY;
+uniform sampler2D Noise;
+uniform float Time;
+
+varying vec2 texCoord;
+
+void main(void)
+{
+ 
+    vec4 outCol=texture2D( BlurY, texCoord);
+    gl_FragColor = vec4(vec3(outCol.xyz)*0.5,1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmStreamMapReference NAME="streamMap" API=""/>
+    <RmTextureObject NAME="BlurX" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BlurX" API=""/>
+    </RmTextureObject>
+    <RmTextureObject NAME="BlurY" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BlurY" API=""/>
+    </RmTextureObject>
+    <RmTextureObject NAME="Texture2" API="OpenGL" STATE_INDEX="2" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="base" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="BlurY" API="" REGISTER="-1"/>
    </RmGLPass>
   </RmOpenGLEffect>
-  <RmMatrixVariable NAME="matView" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="View" VALUE_0="0.204823" VALUE_1="-0.976012" VALUE_2="-0.073815" VALUE_3="0.000000" VALUE_4="0.916291" VALUE_5="0.164679" VALUE_6="0.365091" VALUE_7="-0.000010" VALUE_8="-0.344176" VALUE_9="-0.142415" VALUE_10="0.928042" VALUE_11="-7.321841" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="0.000000" VALUE_15="1.000000"/>
-  <RmMatrixVariable NAME="matProjection" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Projection" VALUE_0="1.981261" VALUE_1="0.000000" VALUE_2="0.000000" VALUE_3="0.000000" VALUE_4="0.000000" VALUE_5="2.414213" VALUE_6="0.000000" VALUE_7="0.000000" VALUE_8="0.000000" VALUE_9="0.000000" VALUE_10="-1.001001" VALUE_11="-1.001001" VALUE_12="0.000000" VALUE_13="0.000000" VALUE_14="-1.000000" VALUE_15="0.000000"/>
-  <RmMatrixVariable NAME="matViewProjection" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewProjection" VALUE_0="1.534809" VALUE_1="0.569676" VALUE_2="-0.284097" VALUE_3="0.000003" VALUE_4="-0.922471" VALUE_5="1.911778" VALUE_6="-1.150034" VALUE_7="0.000065" VALUE_8="0.027952" VALUE_9="-0.505850" VALUE_10="-0.863329" VALUE_11="199.199173" VALUE_12="0.027924" VALUE_13="-0.505344" VALUE_14="-0.862466" VALUE_15="199.999969"/>
-  <RmDynamicVariable NAME="fLight1Pos" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
+  <RmFloatVariable NAME="Time" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Time0_X" VALUE="72.165588" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+  <RmFloatVariable NAME="f1MyFloat" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.000000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
+  <RmDynamicVariable NAME="uLight1Position" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
    <RmDynamicVariableValueContainer>
-    <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="-23.995827"/>
-    <RmDynamicVariableValue ROW_INDEX="1" COLUMN_INDEX="0" VALUE="102.026749"/>
-    <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="-134.452988"/>
+    <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="0.000000"/>
+    <RmDynamicVariableValue ROW_INDEX="1" COLUMN_INDEX="0" VALUE="0.000000"/>
+    <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="0.000000"/>
    </RmDynamicVariableValueContainer>
   </RmDynamicVariable>
-  <RmFloatVariable NAME="shadowB" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-0.018790" MIN="-0.031000" MAX="0.000000" CLAMP="TRUE"/>
-  <RmFloatVariable NAME="Area" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1.253200" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
-  <RmColorVariable NAME="uLightColor" API="" ARTIST_EDITABLE="TRUE" VARIABLE_SEMANTIC="" VALUE_0="1.000000" VALUE_1="0.948566" VALUE_2="0.794262" VALUE_3="1.000000"/>
-  <RmRenderableTexture NAME="renderTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="128" HEIGHT="128" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmFloatVariable NAME="Area" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.140000" MIN="-1.000000" MAX="1.000000" CLAMP="TRUE"/>
  </RmEffectWorkspace>
 </RENDER_MONKEY>
