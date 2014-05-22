@@ -905,34 +905,22 @@
    >
 ]>
 <RENDER_MONKEY>
- <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.Screen-Aligned Quad" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
+ <RmEffectWorkspace NAME="Effect Workspace" API="" ACTIVE_EFFECT="Effect Workspace.Default_OpenGL_Effect" VALIDATION_STRING="" XML_VERSION="RenderMonkey 1.71">
   <RmRegistryBranch NAME="RM_REGISTRY" API="" XML_VERSION="RenderMonkey 1.71">
    <RmRegistryBranch NAME="RM_LOCAL" API="" XML_VERSION="RenderMonkey 1.71">
     <RmRegistryBranch NAME="RM_PLUGIN" API="" XML_VERSION="RenderMonkey 1.71"><RmTextDataBlock TYPE="TEXT"><![CDATA[
-<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>11</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>11</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>3</Pane-1><Pane-2>4</Pane-2><Pane-3>5</Pane-3><Pane-4>6</Pane-4><Panes>4</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>1</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-5><Pane-6><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>7</Pane-1><Pane-2>12</Pane-2><Panes>2</Panes></Pane-6><Pane-7><Type>2</Type><DockingCX>0</DockingCX><DockingCY>763</DockingCY><Horiz>1</Horiz><Pane-1>8</Pane-1><Pane-2>10</Pane-2><Pane-3>11</Pane-3><Panes>3</Panes></Pane-7><Pane-8><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>9</Selected><Panes>1</Panes><Pane-1>9</Pane-1></Pane-8><Pane-9><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>8</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>8</LastHolder></Pane-9><Pane-10><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-10><Pane-11><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-11><Pane-12><Type>1</Type><DockingCX>250</DockingCX><DockingCY>150</DockingCY><Selected>13</Selected><Panes>1</Panes><Pane-1>13</Pane-1></Pane-12><Pane-13><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>12</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>12</LastHolder></Pane-13><Pane-14><Type>0</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Title>bapa</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>5</DockingHolder><FloatingHolder>17</FloatingHolder><LastHolder>17</LastHolder></Pane-14><Pane-15><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>16</TopContaner><WindowRectTopPos>26</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>427</WindowRectRightPos></Pane-15><Pane-16><Type>2</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Horiz>1</Horiz><Pane-1>17</Pane-1><Panes>1</Panes></Pane-16><Pane-17><Type>1</Type><DockingCX>427</DockingCX><DockingCY>106</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-17><Pane-18><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>Area</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>21</FloatingHolder><LastHolder>21</LastHolder></Pane-18><Pane-19><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>20</TopContaner><WindowRectTopPos>30</WindowRectTopPos><WindowRectBottomPos>140</WindowRectBottomPos><WindowRectLeftPos>8</WindowRectLeftPos><WindowRectRightPos>443</WindowRectRightPos></Pane-19><Pane-20><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>21</Pane-1><Panes>1</Panes></Pane-20><Pane-21><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-21><Pane-22><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>f1MyFloat</Title><ID>1102</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>25</FloatingHolder><LastHolder>25</LastHolder></Pane-22><Pane-23><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>24</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>435</WindowRectRightPos></Pane-23><Pane-24><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>25</Pane-1><Panes>1</Panes></Pane-24><Pane-25><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-25><Summary><TopContainer>2</TopContainer><Client>10</Client><Panes>25</Panes></Summary></Application_Layout></DockingPaneLayouts>
+<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>9</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>9</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>3</Pane-1><Pane-2>4</Pane-2><Panes>2</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>5</Pane-1><Pane-2>10</Pane-2><Panes>2</Panes></Pane-4><Pane-5><Type>2</Type><DockingCX>0</DockingCX><DockingCY>679</DockingCY><Horiz>1</Horiz><Pane-1>6</Pane-1><Pane-2>8</Pane-2><Pane-3>9</Pane-3><Panes>3</Panes></Pane-5><Pane-6><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>7</Selected><Panes>1</Panes><Pane-1>7</Pane-1></Pane-6><Pane-7><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>6</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>6</LastHolder></Pane-7><Pane-8><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-8><Pane-9><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-9><Pane-10><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>11</Selected><Panes>1</Panes><Pane-1>11</Pane-1></Pane-10><Pane-11><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>10</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>10</LastHolder></Pane-11><Pane-12><Type>0</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Title>Light1Pos</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>15</FloatingHolder><LastHolder>15</LastHolder></Pane-12><Pane-13><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>14</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>200</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>339</WindowRectRightPos></Pane-13><Pane-14><Type>2</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Horiz>1</Horiz><Pane-1>15</Pane-1><Panes>1</Panes></Pane-14><Pane-15><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-15><Summary><TopContainer>2</TopContainer><Client>8</Client><Panes>15</Panes></Summary></Application_Layout></DockingPaneLayouts>
 ]]></RmTextDataBlock>
-     <RmRegistryBranch NAME="RmTextureObjectEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="154" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="203" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="718" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="466" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
-      </RmRegistryBranch>
-      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
-     </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmPreviewDx9Window" API="" XML_VERSION="RenderMonkey 1.71"/>
+     <RmRegistryBranch NAME="RmPreviewGLESWindow" API="" XML_VERSION="RenderMonkey 1.71"/>
+     <RmRegistryBranch NAME="RmPreviewGLPreview" API="" XML_VERSION="RenderMonkey 1.71"/>
      <RmRegistryBranch NAME="RmPreviewGLWindow" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EffectPlacementRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1028" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="862" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="630" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="749" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="796" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="649" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -940,21 +928,6 @@
        </RmRegistryBranch>
       </RmRegistryBranch>
      </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmStreamEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.streamMap" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="641" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="228" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-      </RmRegistryBranch>
-     </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmPreviewDx9Window" API="" XML_VERSION="RenderMonkey 1.71"/>
-     <RmRegistryBranch NAME="RmPreviewGLESWindow" API="" XML_VERSION="RenderMonkey 1.71"/>
-     <RmRegistryBranch NAME="RmPreviewGLPreview" API="" XML_VERSION="RenderMonkey 1.71"/>
      <RmRegistryBranch NAME="RmLightEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
      </RmRegistryBranch>
@@ -964,17 +937,7 @@
      <RmRegistryBranch NAME="RmRenderableTextureEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.Lighting" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="210" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="356" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
-       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.Colorized" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.BaseDepthMap" API="" XML_VERSION="RenderMonkey 1.71">
         <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="210" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -984,16 +947,31 @@
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        </RmRegistryBranch>
-      </RmRegistryBranch>
-     </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmRenderTargetEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
-      <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad.Render.Lighting" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmRegistryBranch NAME="Effect Workspace.BaseDiffuseColor" API="" XML_VERSION="RenderMonkey 1.71">
         <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="239" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="238" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="210" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="360" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
+       <RmRegistryBranch NAME="Effect Workspace.BaseNormalWorldspace" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="210" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="360" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
+       <RmRegistryBranch NAME="Effect Workspace.LightMapBlurX" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="114" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="210" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="356" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1001,17 +979,20 @@
        </RmRegistryBranch>
       </RmRegistryBranch>
      </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmRenderTargetEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
+     </RmRegistryBranch>
      <RmRegistryBranch NAME="RmShaderEditor" API="" XML_VERSION="RenderMonkey 1.71">
-      <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Vertex Program]]></RmTextDataBlock></RmStringVariable>
+Fragment Program]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Render]]></RmTextDataBlock></RmStringVariable>
+RenderLightMap]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1036" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="629" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="3" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="872" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="649" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1020,12 +1001,15 @@ Render]]></RmTextDataBlock></RmStringVariable>
      </RmRegistryBranch>
      <RmRegistryBranch NAME="RmRenderStateBlockEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
+     </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmTextureObjectEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Screen-Aligned Quad" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="88" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1264" MIN="-10" MAX="10" CLAMP="FALSE"/>
-        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="474" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="110" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="145" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="886" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="369" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
         <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1039,444 +1023,489 @@ Render]]></RmTextDataBlock></RmStringVariable>
      <RmRegistryBranch NAME="RmTextureGenerator" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="EditNodeRepository" API="" XML_VERSION="RenderMonkey 1.71"/>
      </RmRegistryBranch>
-     <RmRegistryBranch NAME="RmScalarEditor" API="" XML_VERSION="RenderMonkey 1.71">
+     <RmRegistryBranch NAME="RmStreamEditor" API="" XML_VERSION="RenderMonkey 1.71">
+      <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect.Stream Mapping" API="" XML_VERSION="RenderMonkey 1.71">
+       <RmIntegerVariable NAME="X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="258" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="116" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="641" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="280" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="ShowStatus" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Visible" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Minimized X" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmIntegerVariable NAME="Minimized Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-1" MIN="-10" MAX="10" CLAMP="FALSE"/>
+      </RmRegistryBranch>
+     </RmRegistryBranch>
+     <RmRegistryBranch NAME="RmDynamicVariableEditor" API="" XML_VERSION="RenderMonkey 1.71">
       <RmRegistryBranch NAME="NodeRepository" API="" XML_VERSION="RenderMonkey 1.71">
-       <RmRegistryBranch NAME="Effect Workspace.Area" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1101" MIN="-10" MAX="10" CLAMP="FALSE"/>
-       </RmRegistryBranch>
-       <RmRegistryBranch NAME="Effect Workspace.f1MyFloat" API="" XML_VERSION="RenderMonkey 1.71">
-        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1102" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       <RmRegistryBranch NAME="Effect Workspace.Light1Pos" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1100" MIN="-10" MAX="10" CLAMP="FALSE"/>
+        <RmBooleanVariable NAME="ShowSetup" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="TRUE"/>
        </RmRegistryBranch>
       </RmRegistryBranch>
      </RmRegistryBranch>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-22/5/2014 16:18:44]]></RmTextDataBlock></RmStringVariable>
+22/5/2014 16:18:49]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey 1.71]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="BASE_WORKSPACE_PATH" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-P:\GitHub\AdvancedComputerGraphics\Uppgift 7\]]></RmTextDataBlock></RmStringVariable>
+P:\GitHub\AdvancedComputerGraphics\Uppgift 8\]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
    </RmRegistryBranch>
   </RmRegistryBranch>
-  <RmOpenGLEffect NAME="Screen-Aligned Quad" API="OpenGL" ACTIVE_CAMERA="">
-   <Rm2DTextureVariable NAME="base" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="TVNoise4.png" ORIGIN="0"/>
-   <Rm2DTextureVariable NAME="ColorizeTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="1D2DTexture.png" ORIGIN="0"/>
-   <RmRenderableTexture NAME="Lighting" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
-   <RmRenderableTexture NAME="Colorized" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
-   <RmRenderableTexture NAME="BlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
-   <RmRenderableTexture NAME="BlurY" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
-   <RmStreamMap NAME="streamMap" API="">
-    <RmStream NAME="" API="" STRIDE="32">
+  <RmOpenGLEffect NAME="Default_OpenGL_Effect" API="OpenGL" ACTIVE_CAMERA="">
+   <RmStreamMap NAME="Stream Mapping" API="">
+    <RmStream NAME="Stream" API="" STRIDE="56">
      <RmStreamChannel NAME="Position_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="0" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Vertex"/>
-     <RmStreamChannel NAME="TexCoord_0" API="" DATA_SIZE="8" DATA_TYPE="1" REGISTER="0" USAGE="5" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_TexCoord0"/>
      <RmStreamChannel NAME="Normal_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="3" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Normal"/>
+     <RmStreamChannel NAME="TexCoord_0" API="" DATA_SIZE="8" DATA_TYPE="1" REGISTER="0" USAGE="5" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_TexCoord0"/>
+     <RmStreamChannel NAME="Binormal_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="7" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Binormal"/>
+     <RmStreamChannel NAME="Tangent_0" API="" DATA_SIZE="12" DATA_TYPE="2" REGISTER="0" USAGE="6" USAGE_INDEX="0" ATTRIBUTE_NAME="rm_Tangent"/>
     </RmStream>
    </RmStreamMap>
-   <RmModelData NAME="ElephantBody" API="" FILE_NAME=".\ElephantBody.3ds" ORIENTATION="0"/>
-   <RmModelData NAME="Quad" API="" FILE_NAME=".\ScreenAlignedQuad.3ds" ORIENTATION="0"/>
-   <RmGLPass NAME="Render" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
-    <RmModelReference NAME="ElephantBody" API=""/>
-    <RmRenderStateBlock NAME="Render State" API="OpenGL">
-     <RmState NAME="GL_CullMode" API="OpenGL" STATE="8" VALUE="1" USAGE="RENDER_STATE"/>
-     <RmState NAME="GL_DepthEnable" API="OpenGL" STATE="44" VALUE="1" USAGE="RENDER_STATE"/>
-    </RmRenderStateBlock>
-    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+   <RmModelData NAME="Model" API="" FILE_NAME=".\krasnojarsk_VII.3ds" ORIENTATION="0"/>
+   <RmModelData NAME="ScreenAlignedQuad" API="" FILE_NAME=".\ScreenAlignedQuad.3ds" ORIENTATION="0"/>
+   <RmGLPass NAME="RenderDiffuse" API="OpenGL" PASS_INDEX="2" ENABLED="TRUE">
+    <RmModelReference NAME="Model" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform vec4 vViewPosition;
 
-varying vec3 vLightDir;
 varying vec3 vNormal;
-varying vec3 vEyeVec;
+varying vec2 vTexCoord;
 
 void main(void)
 {
-      vec3 L = normalize(vLightDir);
-      vec3 N = normalize(vNormal);
-      vec3 E = normalize(vEyeVec);
-      
-      // Lambert Diffuse Lighting
-      float diffuse = clamp(dot(N, -L), 0.0, 1.0);
-                     
-      // Rim Lighting
-      float rimlight = smoothstep(0.5, 0.05, dot(N, E));
-               
-      // Add Rim Lighting to Diffuse Component
-      vec4 finalColor = vec4(diffuse + rimlight, rimlight, rimlight, 1.0);
-      finalColor *= vec4(1.0, 1.0, 1.0, 1.0);
-      
-      gl_FragColor = finalColor;
-         
-}]]></RmShaderCode></RmGLShader>
-    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-
-uniform vec3 uLight1Position;
-
-varying vec3 vLightDir;
-varying vec3 vNormal;
-varying vec3 vEyeVec;
-
-void main( void )
-{ 
-       
-   vec4 vertex = gl_ModelViewProjectionMatrix * gl_Vertex;
-   gl_Position = vertex;
    
-   vLightDir = -vec3(gl_ModelViewMatrix * vec4(uLight1Position, 0.0));
-   vNormal = gl_NormalMatrix * gl_Normal;
-   vEyeVec = -vec3(gl_ModelViewMatrix * gl_Vertex);
+   vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz+vViewPosition.xyz),1.0);
+   gl_Position = vertex;
+
+   vNormal =  gl_Normal.xyz;
+   vTexCoord = vec2(gl_MultiTexCoord0);
+   vTexCoord.y=-vTexCoord.y;
+
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec3 vNormal;
+varying vec2 vTexCoord;
+
+uniform sampler2D DiffTex;
+
+void main(void)
+{
+
+   vec4 outCol=texture2D(DiffTex,vTexCoord);
+   gl_FragColor = vec4( outCol.xyz, 1.0 );
+
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="BaseDiffuseColor" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="DiffTex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="DiffuseTexture" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="DiffTex" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="vViewPosition" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="RenderNormal" API="OpenGL" PASS_INDEX="0" ENABLED="TRUE">
+    <RmModelReference NAME="Model" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform vec4 vViewPosition;
+
+varying vec3 vNormal;
+varying vec2 vTexCoord;
+
+void main(void)
+{
+   
+   vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz+vViewPosition.xyz),1.0);
+   gl_Position = vertex;
+
+   vNormal =  gl_Normal.xyz;
+   vTexCoord = vec2(gl_MultiTexCoord0);
+   vTexCoord.y=-vTexCoord.y;
 
 }
 ]]></RmShaderCode></RmGLShader>
-    <RmRenderTarget NAME="Lighting" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
-    <RmStreamMapReference NAME="streamMap" API=""/>
-    <RmShaderConstant NAME="uLight1Position" API="" REGISTER="-1"/>
-   </RmGLPass>
-   <RmGLPass NAME="Colorize" API="OpenGL" PASS_INDEX="1" ENABLED="TRUE">
-    <RmModelReference NAME="Quad" API=""/>
-    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2  texCoord;
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec3 vNormal;
+varying vec2 vTexCoord;
+
+uniform sampler2D DiffTex;
 
 void main(void)
 {
-   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
-   gl_Position = sign( gl_Position );
-    
-   // Texture coordinate for screen aligned (in correct range):
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
-      
+   gl_FragColor = vec4( normalize(vNormal.xyz), 1.0 );
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="BaseNormalWorldspace" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="DiffTex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="DiffuseTexture" API=""/>
+    </RmTextureObject>
+    <RmShaderConstant NAME="vViewPosition" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="RenderDepth" API="OpenGL" PASS_INDEX="1" ENABLED="TRUE">
+    <RmModelReference NAME="Model" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform vec4 vViewPosition;
+
+varying vec3 vEyeVec;
+
+void main(void)
+{
+   
+   vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz+vViewPosition.xyz),1.0);
+   gl_Position = vertex;
+
+   vEyeVec =  gl_Normal.xyz;
+}
+]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec3 vEyeVec;
+varying vec2 vTexCoord;
+
+uniform sampler2D DiffTex;
+
+
+vec4 pack (float depth)
+{
+   const vec4 bitSh = vec4(256.0 * 256.0 * 256.0, 256.0 * 256.0, 256.0, 1.0);
+   const vec4 bitMsk = vec4(0, 1.0 / 256.0, 1.0 / 256.0, 1.0 / 256.0);
+   vec4 comp = fract(depth * bitSh);
+   comp -= comp.xxyz * bitMsk;
+   return comp;
+}
+
+void main(void)
+{
+   float depth = length(vEyeVec)/10000.0;
+   
+   float packedDepth = pack(depth);
+   
+   gl_FragColor = vec4(packedDepth);
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="BaseDepthMap" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="DiffTex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="DiffuseTexture" API=""/>
+    </RmTextureObject>
+    <RmShaderConstant NAME="vViewPosition" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="RenderLightVec" API="OpenGL" PASS_INDEX="3" ENABLED="TRUE">
+    <RmModelReference NAME="Model" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform vec4 vViewPosition;
+varying vec3 vLightVec;
+
+void main(void)
+{
+   
+   vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz+vViewPosition.xyz),1.0);
+   gl_Position = vertex;
+   
+   vLightVec=gl_Vertex.xyz;
+
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
-uniform sampler2D Colorizer;
-uniform sampler2D LitTexture;
+varying vec3 vLightVec;
+varying vec2 vTexCoord;
 
-uniform float bapa;
-
-varying vec2 texCoord;
+uniform sampler2D DiffTex;
 
 void main(void)
 {
-   float dist=texture2D(LitTexture,texCoord).x;
    
-   vec2 tex = texCoord;
-   
-   tex.x=1.0-clamp(dist, 0.01, 0.99);
-   tex.y=1.0-(distance(vec2(0.5, 0.5),texCoord) * 1.4);
-   
-   vec4 outcol=texture2D(Colorizer, tex);
-   gl_FragColor = vec4(vec3(outcol.xyz), 1.0);
+   gl_FragColor = vec4( vec3(normalize(vLightVec)), 1.0 );
+
 }]]></RmShaderCode></RmGLShader>
-    <RmRenderTarget NAME="Colorized" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
-    <RmStreamMapReference NAME="streamMap" API=""/>
-    <RmTextureObject NAME="LitTexture" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="Lighting" API=""/>
+    <RmRenderTarget NAME="BaseLightVec" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="DiffTex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="DiffuseTexture" API=""/>
     </RmTextureObject>
-    <RmTextureObject NAME="Colorizer" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="ColorizeTexture" API=""/>
+    <RmTextureObject NAME="LightMap" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="LightMapTexture" API=""/>
     </RmTextureObject>
-    <RmSampler NAME="Colorizer" API="" REGISTER="-1"/>
-    <RmSampler NAME="LitTexture" API="" REGISTER="-1"/>
+    <RmTextureObject NAME="LightVec" API="OpenGL" STATE_INDEX="2" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseLightVec" API=""/>
+    </RmTextureObject>
+    <RmShaderConstant NAME="vViewPosition" API="" REGISTER="-1"/>
    </RmGLPass>
-   <RmGLPass NAME="BlurX" API="OpenGL" PASS_INDEX="2" ENABLED="TRUE">
-    <RmModelReference NAME="Quad" API=""/>
+   <RmGLPass NAME="RenderLightMap" API="OpenGL" PASS_INDEX="4" ENABLED="TRUE">
+    <RmModelReference NAME="Model" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2 texCoord;
-
-void main(void)
-{
-   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
-   gl_Position = sign( gl_Position );
-    
-   // Texture coordinate for screen aligned (in correct range):
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
-}]]></RmShaderCode></RmGLShader>
-    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
-uniform sampler2D Intex;
-uniform float Time;
-
-varying vec2 texCoord;
-uniform float Area;
-
-float kernel[11];
-vec2 offset[11];
-
-void main(void)
-{  
-   // Cores indicating weight of samples, stronger closer to the center
-   kernel[0]  = 0.0;
-   kernel[1]  = 0.0001;
-   kernel[2]  = 0.0044;
-   kernel[3]  = 0.0540;
-   kernel[4]  = 0.2420;
-   kernel[5]  = 0.3989;
-   kernel[6]  = 0.2420;
-   kernel[7]  = 0.0540;
-   kernel[8]  = 0.0044;
-   kernel[9]  = 0.0001;
-   kernel[10] = 0.0;
-   
-   // Sampling offset
-   offset[0]  = vec2( -5, 0 );
-   offset[1]  = vec2( -4, 0 );
-   offset[2]  = vec2( -3, 0 );
-   offset[3]  = vec2( -2, 0 );
-   offset[4]  = vec2( -1, 0 );
-   offset[5]  = vec2(  0, 0 );
-   offset[6]  = vec2(  1, 0 );
-   offset[7]  = vec2(  2, 0 );
-   offset[8]  = vec2(  3, 0 );
-   offset[9]  = vec2(  4, 0 );
-   offset[10] = vec2(  5, 0 );
-   
-   // Create a texture based on the colorized texture and texture coordinates
-   vec4 outCol = texture2D( Intex, texCoord );
-   
-   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   outCol += texture2D( Intex, texCoord + (offset[0]  * Area) ) * kernel[0];
-   outCol += texture2D( Intex, texCoord + (offset[1]  * Area) ) * kernel[1];
-   outCol += texture2D( Intex, texCoord + (offset[2]  * Area) ) * kernel[2];
-   outCol += texture2D( Intex, texCoord + (offset[3]  * Area) ) * kernel[3];
-   outCol += texture2D( Intex, texCoord + (offset[4]  * Area) ) * kernel[4];
-   outCol += texture2D( Intex, texCoord + (offset[5]  * Area) ) * kernel[5];
-   outCol += texture2D( Intex, texCoord + (offset[6]  * Area) ) * kernel[6];
-   outCol += texture2D( Intex, texCoord + (offset[7]  * Area) ) * kernel[7];
-   outCol += texture2D( Intex, texCoord + (offset[8]  * Area) ) * kernel[8];
-   outCol += texture2D( Intex, texCoord + (offset[9]  * Area) ) * kernel[9];
-   outCol += texture2D( Intex, texCoord + (offset[10] * Area) ) * kernel[10]; 
-   
-   gl_FragColor = vec4(vec3(outCol.xyz),1.0);
-}]]></RmShaderCode></RmGLShader>
-    <RmRenderTarget NAME="BlurX" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
-    <RmStreamMapReference NAME="streamMap" API=""/>
-    <RmTextureObject NAME="Intex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="Colorized" API=""/>
-    </RmTextureObject>
-    <RmSampler NAME="Intex" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="Area" API="" REGISTER="-1"/>
-   </RmGLPass>
-   <RmGLPass NAME="BlurY" API="OpenGL" PASS_INDEX="3" ENABLED="TRUE">
-    <RmModelReference NAME="Quad" API=""/>
-    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2 texCoord;
-
-void main(void)
-{
-   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
-   gl_Position = sign( gl_Position );
-    
-   // Texture coordinate for screen aligned (in correct range):
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
-}]]></RmShaderCode></RmGLShader>
-    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
-uniform sampler2D Intex;
-uniform float Time;
-
-varying vec2 texCoord;
-uniform float Area;
-
-float kernel[11];
-vec2 offset[11];
-
-void main(void)
-{
-   // Cores indicating weight of samples, stronger closer to the center
-   kernel[0]  = 0.0;
-   kernel[1]  = 0.0001;
-   kernel[2]  = 0.0044;
-   kernel[3]  = 0.0540;
-   kernel[4]  = 0.2420;
-   kernel[5]  = 0.3989;
-   kernel[6]  = 0.2420;
-   kernel[7]  = 0.0540;
-   kernel[8]  = 0.0044;
-   kernel[9]  = 0.0001;
-   kernel[10] = 0.0;
-   
-   // Sampling offset
-   offset[0]  = vec2( 0, -5 );
-   offset[1]  = vec2( 0, -4 );
-   offset[2]  = vec2( 0, -3 );
-   offset[3]  = vec2( 0, -2 );
-   offset[4]  = vec2( 0, -1 );
-   offset[5]  = vec2( 0,  0 );
-   offset[6]  = vec2( 0,  1 );
-   offset[7]  = vec2( 0,  2 );
-   offset[8]  = vec2( 0,  3 );
-   offset[9]  = vec2( 0,  4 );
-   offset[10] = vec2( 0,  5 );
-   
-   // Create a texture based on the colorized texture and texture coordinates
-   vec4 outCol = texture2D( Intex, texCoord );
-   
-   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   outCol += texture2D( Intex, texCoord + (offset[0]  * Area) ) * kernel[0];
-   outCol += texture2D( Intex, texCoord + (offset[1]  * Area) ) * kernel[1];
-   outCol += texture2D( Intex, texCoord + (offset[2]  * Area) ) * kernel[2];
-   outCol += texture2D( Intex, texCoord + (offset[3]  * Area) ) * kernel[3];
-   outCol += texture2D( Intex, texCoord + (offset[4]  * Area) ) * kernel[4];
-   outCol += texture2D( Intex, texCoord + (offset[5]  * Area) ) * kernel[5];
-   outCol += texture2D( Intex, texCoord + (offset[6]  * Area) ) * kernel[6];
-   outCol += texture2D( Intex, texCoord + (offset[7]  * Area) ) * kernel[7];
-   outCol += texture2D( Intex, texCoord + (offset[8]  * Area) ) * kernel[8];
-   outCol += texture2D( Intex, texCoord + (offset[9]  * Area) ) * kernel[9];
-   outCol += texture2D( Intex, texCoord + (offset[10] * Area) ) * kernel[10];
-   
-   gl_FragColor = vec4(vec3(outCol.xyz),1.0);
-}]]></RmShaderCode></RmGLShader>
-    <RmRenderTarget NAME="BlurY" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
-    <RmStreamMapReference NAME="streamMap" API=""/>
-    <RmTextureObject NAME="Intex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="Colorized" API=""/>
-    </RmTextureObject>
-    <RmSampler NAME="Intex" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="Area" API="" REGISTER="-1"/>
-   </RmGLPass>
-   <RmGLPass NAME="DarkenPass" API="OpenGL" PASS_INDEX="4" ENABLED="TRUE">
-    <RmModelReference NAME="Quad" API=""/>
-    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2  texCoord;
-
-void main(void)
-{
-   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
-   gl_Position = sign( gl_Position );
-    
-   // Texture coordinate for screen aligned (in correct range):
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
-      
-}]]></RmShaderCode></RmGLShader>
-    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
-uniform sampler2D BlurX;
-uniform sampler2D BlurY;
-uniform sampler2D NoiseMap;
-uniform float Time;
-uniform bool uBlendMode;
+uniform vec4 vViewPosition;
 uniform sampler2D LightMap;
 
+varying vec3 vNormal;
+varying vec2 vTexCoord;
+varying vec3 vLightDir;
+
+void main(void)
+{
+   
+   vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz+vViewPosition.xyz),1.0);
+   gl_Position = vertex;
+   
+   vLightDir = -vec3(gl_ModelViewMatrix * vec4(vec3(texture2D(LightMap, vTexCoord).xyz), 0.0));
+
+   vNormal =  gl_Normal.xyz;
+   vTexCoord = vec2(gl_MultiTexCoord0);
+   vTexCoord.y=-vTexCoord.y;
+
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D DiffTex;
+uniform sampler2D LightVec;
+
+varying vec3 vNormal;
+varying vec2 vTexCoord;
+varying vec3 vLightDir;
+
+void main(void)
+{
+   vec3 color = texture2D(LightVec, vTexCoord).xyz;
+   
+   
+   vec3 L = normalize(vLightDir);
+   vec3 N = normalize(vNormal);
+   
+   float diffuse = dot(N, -L);
+   
+   vec4 outCol=texture2D(DiffTex, vTexCoord);
+   
+   outCol *= vec4(color, 1.0);
+   
+   outCol *= vec4(diffuse);
+   
+   gl_FragColor = vec4( vec3(outCol.xyz), 1.0 );
+
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="BaseLightMap" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="DiffTex" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="LightMapTexture" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="DiffTex" API="" REGISTER="-1"/>
+    <RmSampler NAME="LightMap" API="" REGISTER="-1"/>
+    <RmSampler NAME="LightVec" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="vViewPosition" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="LightMapBlurX" API="OpenGL" PASS_INDEX="5" ENABLED="TRUE">
+    <RmModelReference NAME="ScreenAlignedQuad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2  texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Texture;
+
 varying vec2 texCoord;
 
 void main(void)
 {
-   // Predefine white color
-   vec4 white = vec4(1.0, 1.0, 1.0, 1.0); 
-   
-   // Offset coordinates for fun
-   vec2 ntex = texCoord;
-   ntex.x += Time * 50.3;
-   ntex.y += Time * 70.6;
-    
-   // Create noise
-   vec4 Noise = texture2D(NoiseMap, ntex);
-   
-   // Declare output color
-    vec4 outCol = vec4(0, 0, 0, 0);
-   
-   // Copy he tex1ture coordinates
-   vec2 tex1 = texCoord;
-   vec2 tex2 = texCoord;
-   vec2 tex3 = texCoord;
-   vec2 tex4 = texCoord;
-   
-   // Expose coordinates to the power of eight
-   tex1.x = pow(tex1.x, 6.0);
-   tex1.y = pow(tex1.y, 6.0);
+   float offset  = 1.02;
+   float area    = 1.08;
 
-   // Expose coordinates
-   tex2.x = pow(1.0-tex2.x, 6.0);
-   tex2.y = pow(tex2.y, 6.0);
+   // Create a texture based on the colorized texture and texture coordinates
+   vec4 outCol = texture2D( Texture, texCoord );
+   
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   outCol += texture2D( Texture, texCoord + (offset  * area) ) * 0.02741;
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   outCol += texture2D( Texture, texCoord + (offset  * area) ) * 0.04519;
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   outCol += texture2D( Texture, texCoord + (offset  * area) ) * 0.02741;
+   
+   // outCol = texture2D(Texture,texCoord);
+   gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="LightMapBlurX" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseLightMap" API=""/>
+     <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
+    </RmTextureObject>
+    <RmSampler NAME="Texture" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="LightMapBlurY" API="OpenGL" PASS_INDEX="6" ENABLED="TRUE">
+    <RmModelReference NAME="ScreenAlignedQuad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2  texCoord;
 
-   // Expose coordinates
-   tex3.x = pow(tex3.x, 6.0);
-   tex3.y = pow(1.0-tex3.y, 6.0);
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Texture;
 
-   // Expose coordinates
-   tex4.x = pow(1.0-tex4.x, 6.0);
-   tex4.y = pow(1.0-tex4.y, 6.0);
-   
-   // Calculate the distance between the powered tex1ture coordinates and origo
-   float dist1 = distance(tex1, vec2(0, 0));
-   float dist2 = distance(tex2, vec2(0, 0));
-   float dist3 = distance(tex3, vec2(0, 0));
-   float dist4 = distance(tex4, vec2(0, 0));
-   
-   // Subtract top right surfce edge through smoothstep
-   // Subtract a fraction equal to the distance between the texture and origo
-   dist1 = 1.0 - smoothstep(0.95, 1.0, dist1);            
-   dist1 *= 1.0 - (0.3 * distance(texCoord, vec2(0, 0)));  
-   
-   dist2 = 1.0 - smoothstep(0.95, 1.0, dist2);
-   dist2 *= 1.0 - (0.3 * distance(texCoord, vec2(0, 0)));
-   
-   dist3 = 1.0 - smoothstep(0.95, 1.0, dist3);
-   dist3 *= 1.0 - (0.3 * distance(texCoord, vec2(0, 0)));
-   
-   dist4 = 1.0 - smoothstep(0.95, 1.0, dist4);
-   dist4 *= 1.0 - (0.3 * distance(texCoord, vec2(0, 0)));
-   
-   // Color the surface based on the marked surface, fading in gray scale
-   // Let boolean paramter toggle between blend modes between BlurX and BlurY
-   if(uBlendMode == true){
-   // Multiply blend model
-      vec4 colorBlurX = texture2D(BlurX, texCoord);
-      vec4 colorBlurY = texture2D(BlurY, texCoord);
-      outCol += colorBlurX * colorBlurY;
-   }
-   
-   if(uBlendMode ==  false){
-   // Exclusion blend model
-      vec4 colorBlurX = texture2D(BlurX, texCoord);
-      vec4 colorBlurY = texture2D(BlurY, texCoord);
-      outCol += colorBlurX + colorBlurY - (2.0 * colorBlurX * colorBlurY);
-   } 
-   
-   // Mix in Noise where there is light
-   outCol = mix(Noise, outCol, texture2D(LightMap, texCoord).x);
-   
-   // Cut the corners
-   outCol *= dist1;
-   outCol *= dist2;
-   outCol *= dist3;
-   outCol *= dist4;
-   
-   // Add line noise
-   float lineNoise = mod(gl_FragCoord.y - 0.5, 2.0);
-   outCol *= 1.5 - (lineNoise * abs(sin(Time)));
-   
-   // Output
-   gl_FragColor = outCol;
-}  ]]></RmShaderCode></RmGLShader>
-    <RmStreamMapReference NAME="streamMap" API=""/>
-    <RmTextureObject NAME="BlurX" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="BlurX" API=""/>
+varying vec2 texCoord;
+
+void main(void)
+{
+    vec4 outCol=texture2D(Texture,texCoord);
+    gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="LightMapBlurY" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="LightMapBlurX" API=""/>
+     <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
     </RmTextureObject>
-    <RmTextureObject NAME="BlurY" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="BlurY" API=""/>
+    <RmSampler NAME="Texture" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="LightingPass" API="OpenGL" PASS_INDEX="7" ENABLED="TRUE">
+    <RmModelReference NAME="ScreenAlignedQuad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2  texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Diffuse;
+uniform sampler2D Lightmap;
+
+varying vec2 texCoord;
+
+void main(void)
+{
+    vec4 outCol=texture2D(Diffuse,texCoord);
+    outCol+=texture2D(Lightmap,texCoord);
+    gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="DiffuseLit" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="Diffuse" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseDiffuseColor" API=""/>
+     <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
     </RmTextureObject>
-    <RmTextureObject NAME="NoiseMap" API="OpenGL" STATE_INDEX="2" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="base" API=""/>
+    <RmTextureObject NAME="Lightmap" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="LightMapBlurY" API=""/>
     </RmTextureObject>
-    <RmTextureObject NAME="LightMap" API="OpenGL" STATE_INDEX="3" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="Lighting" API=""/>
+    <RmTextureObject NAME="Lightvec" API="OpenGL" STATE_INDEX="2" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseLightVec" API=""/>
     </RmTextureObject>
-    <RmSampler NAME="BlurX" API="" REGISTER="-1"/>
-    <RmSampler NAME="BlurY" API="" REGISTER="-1"/>
-    <RmSampler NAME="LightMap" API="" REGISTER="-1"/>
-    <RmSampler NAME="NoiseMap" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="Time" API="" REGISTER="-1"/>
-    <RmShaderConstant NAME="uBlendMode" API="" REGISTER="-1"/>
+    <RmTextureObject NAME="Normalmap" API="OpenGL" STATE_INDEX="3" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseNormalWorldspace" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="Diffuse" API="" REGISTER="-1"/>
+    <RmSampler NAME="Lightmap" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="DOFBlurX" API="OpenGL" PASS_INDEX="8" ENABLED="TRUE">
+    <RmModelReference NAME="ScreenAlignedQuad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2  texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Texture;
+uniform sampler2D Depth;
+
+varying vec2 texCoord;
+
+void main(void)
+{
+    vec4 outCol=texture2D(Texture,texCoord);
+    gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="DOFBlurX" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="DiffuseLit" API=""/>
+     <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
+    </RmTextureObject>
+    <RmTextureObject NAME="Depth" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseDepthMap" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="Texture" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="DOFBlurY" API="OpenGL" PASS_INDEX="9" ENABLED="TRUE">
+    <RmModelReference NAME="ScreenAlignedQuad" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2  texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+}]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+uniform sampler2D Texture;
+uniform sampler2D Depth;
+
+varying vec2 texCoord;
+
+// Do not forget to add Decode function from shadow 
+
+void main(void)
+{
+    vec4 outCol=texture2D(Texture,texCoord);
+    gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+}]]></RmShaderCode></RmGLShader>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="DOFBlurX" API=""/>
+     <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
+    </RmTextureObject>
+    <RmTextureObject NAME="Depth" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseDepthMap" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="Texture" API="" REGISTER="-1"/>
    </RmGLPass>
   </RmOpenGLEffect>
-  <RmFloatVariable NAME="Time" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="Time0_X" VALUE="30.653351" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
-  <RmFloatVariable NAME="f1MyFloat" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="-0.020000" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE"/>
-  <RmDynamicVariable NAME="uLight1Position" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
+  <RmVectorVariable NAME="vViewPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewPosition" VALUE_0="35.324585" VALUE_1="-155.244446" VALUE_2="-488.217651" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
+  <RmDynamicVariable NAME="Light1Pos" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
    <RmDynamicVariableValueContainer>
     <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="0.000000"/>
     <RmDynamicVariableValue ROW_INDEX="1" COLUMN_INDEX="0" VALUE="0.000000"/>
     <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="0.000000"/>
    </RmDynamicVariableValueContainer>
   </RmDynamicVariable>
-  <RmFloatVariable NAME="Area" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.990000" MIN="0.000000" MAX="1.000000" CLAMP="TRUE"/>
-  <RmBooleanVariable NAME="uBlendMode" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="TRUE"/>
+  <Rm2DTextureVariable NAME="DiffuseTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Diffuse_Complete_OCC.png" ORIGIN="0"/>
+  <Rm2DTextureVariable NAME="NormalMapTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Normal_Completemap.png" ORIGIN="0"/>
+  <Rm2DTextureVariable NAME="LightMapTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Light_Completemap.png" ORIGIN="0"/>
+  <RmRenderableTexture NAME="BaseNormalWorldspace" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="BaseDepthMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="BaseDiffuseColor" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="BaseLightVec" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="BaseLightMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="LightMapBlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="LightMapBlurY" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="DiffuseLit" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="DOFBlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
  </RmEffectWorkspace>
 </RENDER_MONKEY>
