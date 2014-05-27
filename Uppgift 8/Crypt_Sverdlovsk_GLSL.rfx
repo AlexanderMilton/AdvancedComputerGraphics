@@ -909,7 +909,7 @@
   <RmRegistryBranch NAME="RM_REGISTRY" API="" XML_VERSION="RenderMonkey 1.71">
    <RmRegistryBranch NAME="RM_LOCAL" API="" XML_VERSION="RenderMonkey 1.71">
     <RmRegistryBranch NAME="RM_PLUGIN" API="" XML_VERSION="RenderMonkey 1.71"><RmTextDataBlock TYPE="TEXT"><![CDATA[
-<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>13</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>13</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>3</Pane-1><Pane-2>4</Pane-2><Pane-3>5</Pane-3><Pane-4>6</Pane-4><Pane-5>7</Pane-5><Pane-6>8</Pane-6><Panes>6</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-5><Pane-6><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-6><Pane-7><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-7><Pane-8><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>9</Pane-1><Pane-2>14</Pane-2><Panes>2</Panes></Pane-8><Pane-9><Type>2</Type><DockingCX>0</DockingCX><DockingCY>730</DockingCY><Horiz>1</Horiz><Pane-1>10</Pane-1><Pane-2>12</Pane-2><Pane-3>13</Pane-3><Panes>3</Panes></Pane-9><Pane-10><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>11</Selected><Panes>1</Panes><Pane-1>11</Pane-1></Pane-10><Pane-11><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>10</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>10</LastHolder></Pane-11><Pane-12><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-12><Pane-13><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-13><Pane-14><Type>1</Type><DockingCX>250</DockingCX><DockingCY>199</DockingCY><Selected>15</Selected><Panes>1</Panes><Pane-1>15</Pane-1></Pane-14><Pane-15><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>14</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>14</LastHolder></Pane-15><Pane-16><Type>0</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Title>Light1Pos</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>19</FloatingHolder><LastHolder>19</LastHolder></Pane-16><Pane-17><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>18</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>200</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>339</WindowRectRightPos></Pane-17><Pane-18><Type>2</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Horiz>1</Horiz><Pane-1>19</Pane-1><Panes>1</Panes></Pane-18><Pane-19><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-19><Pane-20><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uBlurArea</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>6</DockingHolder><FloatingHolder>23</FloatingHolder><LastHolder>23</LastHolder></Pane-20><Pane-21><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>22</TopContaner><WindowRectTopPos>9</WindowRectTopPos><WindowRectBottomPos>119</WindowRectBottomPos><WindowRectLeftPos>668</WindowRectLeftPos><WindowRectRightPos>1103</WindowRectRightPos></Pane-21><Pane-22><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>23</Pane-1><Panes>1</Panes></Pane-22><Pane-23><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-23><Pane-24><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uBlurDepth</Title><ID>1102</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>5</DockingHolder><FloatingHolder>27</FloatingHolder><LastHolder>27</LastHolder></Pane-24><Pane-25><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>26</TopContaner><WindowRectTopPos>3</WindowRectTopPos><WindowRectBottomPos>113</WindowRectBottomPos><WindowRectLeftPos>876</WindowRectLeftPos><WindowRectRightPos>1311</WindowRectRightPos></Pane-25><Pane-26><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>27</Pane-1><Panes>1</Panes></Pane-26><Pane-27><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-27><Pane-28><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uDepthFocus</Title><ID>1103</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>31</FloatingHolder><LastHolder>31</LastHolder></Pane-28><Pane-29><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>30</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>435</WindowRectRightPos></Pane-29><Pane-30><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>31</Pane-1><Panes>1</Panes></Pane-30><Pane-31><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-31><Pane-32><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uDepthOfField</Title><ID>1104</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>35</FloatingHolder><LastHolder>35</LastHolder></Pane-32><Pane-33><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>34</TopContaner><WindowRectTopPos>6</WindowRectTopPos><WindowRectBottomPos>116</WindowRectBottomPos><WindowRectLeftPos>1307</WindowRectLeftPos><WindowRectRightPos>1742</WindowRectRightPos></Pane-33><Pane-34><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>35</Pane-1><Panes>1</Panes></Pane-34><Pane-35><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-35><Summary><TopContainer>2</TopContainer><Client>12</Client><Panes>35</Panes></Summary></Application_Layout></DockingPaneLayouts>
+<DockingPaneLayouts><Application_Layout><Pane-1><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Artist Editor</Title><ID>1001</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>15</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>15</LastHolder></Pane-1><Pane-2><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>1</Horiz><Pane-1>3</Pane-1><Pane-2>4</Pane-2><Pane-3>5</Pane-3><Pane-4>6</Pane-4><Pane-5>7</Pane-5><Pane-6>8</Pane-6><Pane-7>9</Pane-7><Pane-8>10</Pane-8><Panes>8</Panes></Pane-2><Pane-3><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-3><Pane-4><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-4><Pane-5><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-5><Pane-6><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-6><Pane-7><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-7><Pane-8><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-8><Pane-9><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-9><Pane-10><Type>2</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><Horiz>0</Horiz><Pane-1>11</Pane-1><Pane-2>16</Pane-2><Panes>2</Panes></Pane-10><Pane-11><Type>2</Type><DockingCX>0</DockingCX><DockingCY>730</DockingCY><Horiz>1</Horiz><Pane-1>12</Pane-1><Pane-2>14</Pane-2><Pane-3>15</Pane-3><Panes>3</Panes></Pane-11><Pane-12><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>13</Selected><Panes>1</Panes><Pane-1>13</Pane-1></Pane-12><Pane-13><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Workspace</Title><ID>1000</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>12</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>12</LastHolder></Pane-13><Pane-14><Type>4</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY></Pane-14><Pane-15><Type>1</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-15><Pane-16><Type>1</Type><DockingCX>250</DockingCX><DockingCY>199</DockingCY><Selected>17</Selected><Panes>1</Panes><Pane-1>17</Pane-1></Pane-16><Pane-17><Type>0</Type><DockingCX>250</DockingCX><DockingCY>250</DockingCY><Title>Output</Title><ID>1002</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>16</DockingHolder><FloatingHolder>0</FloatingHolder><LastHolder>16</LastHolder></Pane-17><Pane-18><Type>0</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Title>Light1Pos</Title><ID>1100</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>9</DockingHolder><FloatingHolder>21</FloatingHolder><LastHolder>21</LastHolder></Pane-18><Pane-19><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>20</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>200</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>339</WindowRectRightPos></Pane-19><Pane-20><Type>2</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Horiz>1</Horiz><Pane-1>21</Pane-1><Panes>1</Panes></Pane-20><Pane-21><Type>1</Type><DockingCX>339</DockingCX><DockingCY>178</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-21><Pane-22><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uBlurArea</Title><ID>1101</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>8</DockingHolder><FloatingHolder>25</FloatingHolder><LastHolder>25</LastHolder></Pane-22><Pane-23><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>24</TopContaner><WindowRectTopPos>9</WindowRectTopPos><WindowRectBottomPos>119</WindowRectBottomPos><WindowRectLeftPos>668</WindowRectLeftPos><WindowRectRightPos>1103</WindowRectRightPos></Pane-23><Pane-24><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>25</Pane-1><Panes>1</Panes></Pane-24><Pane-25><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-25><Pane-26><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>27</TopContaner><WindowRectTopPos>27</WindowRectTopPos><WindowRectBottomPos>137</WindowRectBottomPos><WindowRectLeftPos>1043</WindowRectLeftPos><WindowRectRightPos>1478</WindowRectRightPos></Pane-26><Pane-27><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>28</Pane-1><Panes>1</Panes></Pane-27><Pane-28><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-28><Pane-29><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uBlurDepth</Title><ID>1102</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>7</DockingHolder><FloatingHolder>28</FloatingHolder><LastHolder>28</LastHolder></Pane-29><Pane-30><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uDepthFocus</Title><ID>1103</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>6</DockingHolder><FloatingHolder>33</FloatingHolder><LastHolder>33</LastHolder></Pane-30><Pane-31><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>32</TopContaner><WindowRectTopPos>22</WindowRectTopPos><WindowRectBottomPos>132</WindowRectBottomPos><WindowRectLeftPos>0</WindowRectLeftPos><WindowRectRightPos>435</WindowRectRightPos></Pane-31><Pane-32><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>33</Pane-1><Panes>1</Panes></Pane-32><Pane-33><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-33><Pane-34><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>35</TopContaner><WindowRectTopPos>26</WindowRectTopPos><WindowRectBottomPos>136</WindowRectBottomPos><WindowRectLeftPos>1479</WindowRectLeftPos><WindowRectRightPos>1914</WindowRectRightPos></Pane-34><Pane-35><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>36</Pane-1><Panes>1</Panes></Pane-35><Pane-36><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>0</Selected><Panes>0</Panes></Pane-36><Pane-37><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uDepthOfField</Title><ID>1104</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>5</DockingHolder><FloatingHolder>36</FloatingHolder><LastHolder>36</LastHolder></Pane-37><Pane-38><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>39</TopContaner><WindowRectTopPos>5</WindowRectTopPos><WindowRectBottomPos>115</WindowRectBottomPos><WindowRectLeftPos>666</WindowRectLeftPos><WindowRectRightPos>1101</WindowRectRightPos></Pane-38><Pane-39><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>40</Pane-1><Panes>1</Panes></Pane-39><Pane-40><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>41</Selected><Panes>1</Panes><Pane-1>41</Pane-1></Pane-40><Pane-41><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uRadialBlurIntensity</Title><ID>1105</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>4</DockingHolder><FloatingHolder>40</FloatingHolder><LastHolder>40</LastHolder></Pane-41><Pane-42><Type>3</Type><DockingCX>0</DockingCX><DockingCY>0</DockingCY><TopContaner>43</TopContaner><WindowRectTopPos>5</WindowRectTopPos><WindowRectBottomPos>115</WindowRectBottomPos><WindowRectLeftPos>1100</WindowRectLeftPos><WindowRectRightPos>1535</WindowRectRightPos></Pane-42><Pane-43><Type>2</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Horiz>1</Horiz><Pane-1>44</Pane-1><Panes>1</Panes></Pane-43><Pane-44><Type>1</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Selected>45</Selected><Panes>1</Panes><Pane-1>45</Pane-1></Pane-44><Pane-45><Type>0</Type><DockingCX>435</DockingCX><DockingCY>110</DockingCY><Title>uRadialSampleArea</Title><ID>1106</ID><IconID>-1</IconID><Options>0</Options><DockingHolder>3</DockingHolder><FloatingHolder>44</FloatingHolder><LastHolder>44</LastHolder></Pane-45><Summary><TopContainer>2</TopContainer><Client>14</Client><Panes>45</Panes></Summary></Application_Layout></DockingPaneLayouts>
 ]]></RmTextDataBlock>
      <RmRegistryBranch NAME="RmPreviewDx9Window" API="" XML_VERSION="RenderMonkey 1.71"/>
      <RmRegistryBranch NAME="RmPreviewGLESWindow" API="" XML_VERSION="RenderMonkey 1.71"/>
@@ -998,7 +998,7 @@
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 Fragment Program]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-DOFBlurX]]></RmTextDataBlock></RmStringVariable>
+RadialBlur]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Width" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="829" MIN="-10" MAX="10" CLAMP="FALSE"/>
        <RmIntegerVariable NAME="Height" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="700" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1064,12 +1064,18 @@ DOFBlurX]]></RmTextDataBlock></RmStringVariable>
        <RmRegistryBranch NAME="Effect Workspace.uDepthOfField" API="" XML_VERSION="RenderMonkey 1.71">
         <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1104" MIN="-10" MAX="10" CLAMP="FALSE"/>
        </RmRegistryBranch>
+       <RmRegistryBranch NAME="Effect Workspace.uRadialBlurIntensity" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1105" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
+       <RmRegistryBranch NAME="Effect Workspace.uRadialSampleArea" API="" XML_VERSION="RenderMonkey 1.71">
+        <RmIntegerVariable NAME="DockPaneID" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="1106" MIN="-10" MAX="10" CLAMP="FALSE"/>
+       </RmRegistryBranch>
       </RmRegistryBranch>
      </RmRegistryBranch>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-26/5/2014 19:22:15]]></RmTextDataBlock></RmStringVariable>
+27/5/2014 15:25:10]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1309,6 +1315,7 @@ void main(void)
    texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+
 uniform sampler2D Texture;
 uniform float uBlurArea;
 
@@ -1319,20 +1326,20 @@ void main(void)
 {
    vec2 offset = vec2(1.0, 0.0) * uBlurArea;
    
-   vec4 colorBlurX;
+   vec4 colorBlurX = vec4(0.0);
    
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
    colorBlurX += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
    colorBlurX += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord) * 0.4;
+   colorBlurX += texture2D( Texture, texCoord)                 * 0.4;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * 1.0) * 0.2;
+   colorBlurX += texture2D( Texture, texCoord + offset *  1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * 2.0) * 0.1;
+   colorBlurX += texture2D( Texture, texCoord + offset *  2.0) * 0.1;
    
-   blurX = colorBlurX;
+   vec4 blurX = colorBlurX;
    
    
    gl_FragColor = colorBlurX;
@@ -1361,37 +1368,33 @@ void main(void)
    texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+
 uniform sampler2D Texture;
 uniform float uBlurArea;
 
 varying vec4 blurX;
-varying vec4 blurY;
-
 varying vec2 texCoord;
 
 void main(void)
 {
    vec2 offset = vec2(0.0, 1.0) * uBlurArea;
    
-   vec4 colorBlurY = blurX;
+   vec4 colorBlurY = vec4(0.0);
    
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
    colorBlurY += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
    colorBlurY += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord) * 0.4;
+   colorBlurY += texture2D( Texture, texCoord)                 * 0.4;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * 1.0) * 0.2;
+   colorBlurY += texture2D( Texture, texCoord + offset *  1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * 2.0) * 0.1;
+   colorBlurY += texture2D( Texture, texCoord + offset *  2.0) * 0.1;
    
-   blurY = colorBlurY;
    
    gl_FragColor = colorBlurY;
-
-}
-]]></RmShaderCode></RmGLShader>
+}]]></RmShaderCode></RmGLShader>
     <RmRenderTarget NAME="LightMapBlurY" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
     <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
@@ -1457,9 +1460,9 @@ void main(void)
    outCol *= diffuse;
    
    // Add light from light map
-   outCol += texture2D(Lightmap, texCoord);
+   outCol += texture2D(Lightmap, texCoord).x, 1.0;
    
-   gl_FragColor = vec4(outCol, 1.0);
+   gl_FragColor = vec4(vec3(outCol), 1.0);
 }]]></RmShaderCode></RmGLShader>
     <RmRenderTarget NAME="DiffuseLit" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
@@ -1508,7 +1511,7 @@ void main(void)
    float depthTexture = abs(uBlurDepth - texture2D(Depth, texCoord).x);
    vec2 offset = vec2(1.0, 0.0) * (depthTexture / uDepthOfField);
    
-   vec4 colorBlurX;
+   vec4 colorBlurX = vec4(0.0);
    
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
    colorBlurX += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
@@ -1521,41 +1524,9 @@ void main(void)
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
    colorBlurX += texture2D( Texture, texCoord + offset * 2.0) * 0.1;
    
-   //vec4 depthBlurX = colorBlurX;
-   
    
    gl_FragColor = colorBlurX;
-}
-/*
-uniform sampler2D Texture;
-uniform float uBlurArea;
-
-varying vec4 blurX;
-varying vec2 texCoord;
-
-void main(void)
-{
-   vec2 offset = vec2(1.0, 0.0) * uBlurArea;
-   
-   vec4 colorBlurX;
-   
-   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
-   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
-   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord) * 0.4;
-   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * 1.0) * 0.2;
-   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * 2.0) * 0.1;
-   
-   blurX = colorBlurX;
-   
-   
-   gl_FragColor = colorBlurX;
-}
-*/]]></RmShaderCode></RmGLShader>
+}]]></RmShaderCode></RmGLShader>
     <RmRenderTarget NAME="DOFBlurX" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
     <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
@@ -1587,15 +1558,31 @@ void main(void)
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 uniform sampler2D Texture;
 uniform sampler2D Depth;
+uniform float uDepthOfField;
+uniform float uBlurDepth;
 
 varying vec2 texCoord;
 
-// Do not forget to add Decode function from shadow 
-
 void main(void)
 {
-    vec4 outCol=texture2D(Texture,texCoord);
-    gl_FragColor = vec4(vec3(outCol.xyz),1.0);
+   float depthTexture = abs(uBlurDepth - texture2D(Depth, texCoord).x);
+   vec2 offset = vec2(0.0, 1.0) * (depthTexture / uDepthOfField);
+   
+   vec4 colorBlurY = vec4(0.0);
+   
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   colorBlurY += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   colorBlurY += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   colorBlurY += texture2D( Texture, texCoord) * 0.4;
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   colorBlurY += texture2D( Texture, texCoord + offset * 1.0) * 0.2;
+   // Collect samples using offset, area coverage parameter and multibly by the kernel weight
+   colorBlurY += texture2D( Texture, texCoord + offset * 2.0) * 0.1;
+   
+   
+   gl_FragColor = colorBlurY;
 }]]></RmShaderCode></RmGLShader>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
     <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
@@ -1608,10 +1595,138 @@ void main(void)
     <RmTextureObject NAME="Depth" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
      <RmTextureReference NAME="BaseDepthMap" API=""/>
     </RmTextureObject>
+    <RmSampler NAME="Depth" API="" REGISTER="-1"/>
     <RmSampler NAME="Texture" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="uBlurDepth" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="uDepthOfField" API="" REGISTER="-1"/>
+   </RmGLPass>
+   <RmGLPass NAME="RadialBlur" API="OpenGL" PASS_INDEX="10" ENABLED="TRUE">
+    <RmModelReference NAME="Model" API=""/>
+    <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
+varying vec2 texCoord;
+
+void main(void)
+{
+   gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
+   gl_Position = sign( gl_Position );
+   
+   // Texture coordinate for screen aligned (in correct range):
+   texCoord = (vec2( gl_Position.x, - gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
+}
+
+
+/*
+void main(void)
+{
+   gl_Position = ftransform();
+}
+*/]]></RmShaderCode></RmGLShader>
+    <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
+
+uniform sampler2D Texture;
+uniform float uRadialBlurIntensity;
+uniform float uRadialSampleArea;
+
+varying vec2 texCoord;
+
+void main(void)
+{
+   // Sample list
+   float samples[9];
+   samples[0] = (-0.0001);
+   samples[1] = (-0.0044);
+   samples[2] = (-0.0540);
+   samples[3] = (-0.2420);
+   samples[4] = ( 0.3989);
+   samples[5] = ( 0.2420);
+   samples[6] = ( 0.0540);
+   samples[7] = ( 0.0044);
+   samples[8] = ( 0.0001);
+   
+   // Create a vector pointing towards the screen center
+   vec2 direction = 0.5 - texCoord;
+   
+   // Calculate distance to the screen center
+   float dist = sqrt((direction.x * direction.x) + (direction.y * direction.y));
+   
+   // Normalize direction using distance
+   direction /= dist;
+   
+   // Create an unchanged and one empty color
+   vec4 color = texture2D(Texture, texCoord);
+   vec4 outCol = color;
+   
+   // Collect samples towards the center of the screen
+   for (int i = 0; i < 9; i++)
+   {
+      // 
+      outCol += texture2D( Texture, texCoord + direction * samples[i] );
+      outCol *= uRadialSampleArea;
+   }
+   
+   
+    //   for (int i = 0; i < 10; i++)
+    //{
+    //  sum += texture2D( tex, uv + dir * samples[i] * sampleDist );
+    //}
+    
+    
+   // Divide by the number of samples
+   outCol *= 1.0 / 9.0;
+   
+   // Weighten blur effect against the distance to the center
+   float t = dist * uRadialBlurIntensity;
+   t = clamp(t, 0.0, 1.0);
+   
+   //Blend the original color with the averaged pixels
+   gl_FragColor = mix(color, outCol, t);
+}
+   
+   
+   
+   /*
+   void main(void)
+   {
+   // Create a vec2 holding values 0.5
+   vec2 centerCoords = vec2(0.5, 0.5);
+   
+   // Create a vec2 holding texCoord with 0.5 subtracted
+   vec2 textureCenter = texCoord - centerCoords;
+   
+   // Create an empty vec4 for output
+   vec4 outCol = vec4(0.0);
+   
+   // Perform a loop of 24 iterations
+   for(int i = 0; i < 24; i++)
+   {
+      // Add a texture with
+      outCol += texture2D(Texture, centerCoords + textureCenter);
+      textureCenter += textureCenter * uRadialBlurIntensity;
+   }
+   
+   outCol /= 24.0;
+   
+   gl_FragColor = vec4(vec3(outCol.xyz), 1.0);
+}
+*/
+]]></RmShaderCode></RmGLShader>
+    <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="DiffuseTexture" API=""/>
+     <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
+     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
+    </RmTextureObject>
+    <RmTextureObject NAME="Depth" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseDepthMap" API=""/>
+    </RmTextureObject>
+    <RmSampler NAME="Texture" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="uRadialBlurIntensity" API="" REGISTER="-1"/>
+    <RmShaderConstant NAME="uRadialSampleArea" API="" REGISTER="-1"/>
    </RmGLPass>
   </RmOpenGLEffect>
-  <RmVectorVariable NAME="vViewPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewPosition" VALUE_0="-0.000563" VALUE_1="-0.000271" VALUE_2="-0.018991" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
+  <RmVectorVariable NAME="vViewPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewPosition" VALUE_0="0.000000" VALUE_1="0.000000" VALUE_2="-11.088994" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
   <RmDynamicVariable NAME="Light1Pos" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
    <RmDynamicVariableValueContainer>
     <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="0.000000"/>
@@ -1619,20 +1734,23 @@ void main(void)
     <RmDynamicVariableValue ROW_INDEX="2" COLUMN_INDEX="0" VALUE="0.000000"/>
    </RmDynamicVariableValueContainer>
   </RmDynamicVariable>
-  <RmFloatVariable NAME="uBlurArea" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.002000" MIN="0.000000" MAX="0.100000" CLAMP="TRUE"/>
-  <RmFloatVariable NAME="uBlurDepth" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.640000" MIN="0.000000" MAX="1.000000" CLAMP="TRUE"/>
-  <RmFloatVariable NAME="uDepthOfField" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="90.500000" MIN="50.000000" MAX="500.000000" CLAMP="TRUE"/>
+  <RmFloatVariable NAME="uBlurArea" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.004000" MIN="0.000000" MAX="0.100000" CLAMP="TRUE"/>
+  <RmFloatVariable NAME="uBlurDepth" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.410000" MIN="0.000000" MAX="1.000000" CLAMP="TRUE"/>
+  <RmFloatVariable NAME="uDepthOfField" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="500.000000" MIN="20.000000" MAX="500.000000" CLAMP="TRUE"/>
+  <RmFloatVariable NAME="uRadialBlurIntensity" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="2.100000" MIN="0.000000" MAX="10.000000" CLAMP="FALSE"/>
+  <RmFloatVariable NAME="uRadialSampleArea" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.880000" MIN="0.000000" MAX="2.000000" CLAMP="TRUE"/>
+  <Rm2DTextureVariable NAME="LightMapTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Light_Completemap.png" ORIGIN="0"/>
+  <Rm2DTextureVariable NAME="Noise" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME=".\Noise.png" ORIGIN="0"/>
   <Rm2DTextureVariable NAME="DiffuseTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Diffuse_Complete_OCC.png" ORIGIN="0"/>
   <Rm2DTextureVariable NAME="NormalMapTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Normal_Completemap.png" ORIGIN="0"/>
-  <Rm2DTextureVariable NAME="LightMapTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Light_Completemap.png" ORIGIN="0"/>
-  <RmRenderableTexture NAME="BaseLightVec" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
-  <RmRenderableTexture NAME="BaseLightMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
-  <RmRenderableTexture NAME="LightMapBlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="LightMapBlurY" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="DiffuseLit" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="DOFBlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="BaseNormalWorldspace" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="BaseDepthMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="BaseDiffuseColor" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="BaseLightVec" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="BaseLightMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="LightMapBlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
  </RmEffectWorkspace>
 </RENDER_MONKEY>
