@@ -996,7 +996,7 @@
       <RmRegistryBranch NAME="Effect Workspace.Default_OpenGL_Effect" API="" XML_VERSION="RenderMonkey 1.71">
        <RmRegistryBranch NAME="Disassembly" API="" XML_VERSION="RenderMonkey 1.71"/>
        <RmStringVariable NAME="Editing Shader" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-Fragment Program]]></RmTextDataBlock></RmStringVariable>
+Vertex Program]]></RmTextDataBlock></RmStringVariable>
        <RmStringVariable NAME="Editing Pass" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RadialBlur]]></RmTextDataBlock></RmStringVariable>
        <RmIntegerVariable NAME="Y" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0" MIN="-10" MAX="10" CLAMP="FALSE"/>
@@ -1075,7 +1075,7 @@ RadialBlur]]></RmTextDataBlock></RmStringVariable>
     </RmRegistryBranch>
     <RmRegistryBranch NAME="WORKSPACE" API="" XML_VERSION="RenderMonkey 1.71">
      <RmStringVariable NAME="LAST_SAVE" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
-27/5/2014 15:25:10]]></RmTextDataBlock></RmStringVariable>
+27/5/2014 18:14:8]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
 RenderMonkey Version 1.82 (build 322)]]></RmTextDataBlock></RmStringVariable>
      <RmStringVariable NAME="XML_VERSION" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC=""><RmTextDataBlock TYPE="TEXT"><![CDATA[
@@ -1108,7 +1108,7 @@ varying vec2 vTexCoord;
 void main(void)
 {
    
-   vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz+vViewPosition.xyz),1.0);
+   vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz + vViewPosition.xyz), 1.0);
    gl_Position = vertex;
 
    vNormal =  gl_Normal.xyz;
@@ -1306,13 +1306,13 @@ void main(void)
    <RmGLPass NAME="LightMapBlurX" API="OpenGL" PASS_INDEX="5" ENABLED="TRUE">
     <RmModelReference NAME="ScreenAlignedQuad" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2  texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
    gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
    gl_Position = sign( gl_Position );
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+   vTexCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 
@@ -1320,7 +1320,7 @@ uniform sampler2D Texture;
 uniform float uBlurArea;
 
 varying vec4 blurX;
-varying vec2 texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
@@ -1329,15 +1329,15 @@ void main(void)
    vec4 colorBlurX = vec4(0.0);
    
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
+   colorBlurX += texture2D( Texture, vTexCoord + offset * -2.0) * 0.1;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
+   colorBlurX += texture2D( Texture, vTexCoord + offset * -1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord)                 * 0.4;
+   colorBlurX += texture2D( Texture, vTexCoord)                 * 0.4;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset *  1.0) * 0.2;
+   colorBlurX += texture2D( Texture, vTexCoord + offset *  1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset *  2.0) * 0.1;
+   colorBlurX += texture2D( Texture, vTexCoord + offset *  2.0) * 0.1;
    
    vec4 blurX = colorBlurX;
    
@@ -1359,13 +1359,13 @@ void main(void)
    <RmGLPass NAME="LightMapBlurY" API="OpenGL" PASS_INDEX="6" ENABLED="TRUE">
     <RmModelReference NAME="ScreenAlignedQuad" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2  texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
    gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
    gl_Position = sign( gl_Position );
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+   vTexCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 
@@ -1373,7 +1373,7 @@ uniform sampler2D Texture;
 uniform float uBlurArea;
 
 varying vec4 blurX;
-varying vec2 texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
@@ -1382,15 +1382,15 @@ void main(void)
    vec4 colorBlurY = vec4(0.0);
    
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
+   colorBlurY += texture2D( Texture, vTexCoord + offset * -2.0) * 0.1;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
+   colorBlurY += texture2D( Texture, vTexCoord + offset * -1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord)                 * 0.4;
+   colorBlurY += texture2D( Texture, vTexCoord)                 * 0.4;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset *  1.0) * 0.2;
+   colorBlurY += texture2D( Texture, vTexCoord + offset *  1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset *  2.0) * 0.1;
+   colorBlurY += texture2D( Texture, vTexCoord + offset *  2.0) * 0.1;
    
    
    gl_FragColor = colorBlurY;
@@ -1410,7 +1410,7 @@ void main(void)
    <RmGLPass NAME="LightingPass" API="OpenGL" PASS_INDEX="7" ENABLED="TRUE">
     <RmModelReference NAME="ScreenAlignedQuad" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2 texCoord;
+varying vec2 vTexCoord;
 varying vec3 vNormal;
 varying vec3 vLightDir;
 
@@ -1418,14 +1418,8 @@ void main(void)
 {
    gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
    gl_Position = sign( gl_Position );
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 ); 
-    
-   /*vec4 vertex = gl_ModelViewProjectionMatrix * vec4(vec3(gl_Vertex.xyz+vViewPosition.xyz),1.0);
-   gl_Position = vertex;
+   vTexCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 ); 
    
-   vNormal =  gl_Normal.xyz;
-   vTexCoord = vec2(gl_MultiTexCoord0);
-   vTexCoord.y = -vTexCoord.y;   */
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 uniform sampler2D Diffuse;
@@ -1435,32 +1429,32 @@ uniform sampler2D Lightvec;
 
 varying vec3 vNormal;
 varying vec3 vLightDir;
-varying vec2 texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
 
-   vec3 normal = vec3(texture2D(Normalmap, texCoord).xyz);
+   vec3 normal = vec3(texture2D(Normalmap, vTexCoord).xyz);
    normal *= 2.0;
    normal -= 1.0;
 
-   vec3 lightVector = vec3(texture2D(Lightvec, texCoord).xyz);
+   vec3 lightVector = vec3(texture2D(Lightvec, vTexCoord).xyz);
    lightVector *= 2.0;
    lightVector -= 1.0;
    
    float diffuse = max(dot(normal, -lightVector), 0.0);
    
    // Get diffuse texture
-   vec3 outCol = texture2D(Diffuse, texCoord).xyz;
+   vec3 outCol = texture2D(Diffuse, vTexCoord).xyz;
    
    // Get ambient occlusion texture and multiply with the diffuse texture
-   outCol *= texture2D(Diffuse, texCoord).w;
+   outCol *= texture2D(Diffuse, vTexCoord).w;
    
    // Multiply with diffuse
    outCol *= diffuse;
    
    // Add light from light map
-   outCol += texture2D(Lightmap, texCoord).x, 1.0;
+   outCol += texture2D(Lightmap, vTexCoord).x, 1.0;
    
    gl_FragColor = vec4(vec3(outCol), 1.0);
 }]]></RmShaderCode></RmGLShader>
@@ -1490,13 +1484,13 @@ void main(void)
    <RmGLPass NAME="DOFBlurX" API="OpenGL" PASS_INDEX="8" ENABLED="TRUE">
     <RmModelReference NAME="ScreenAlignedQuad" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2  texCoord;
+varying vec2  vTexCoord;
 
 void main(void)
 {
    gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
    gl_Position = sign( gl_Position );
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+   vTexCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 uniform sampler2D Texture;
@@ -1504,25 +1498,25 @@ uniform sampler2D Depth;
 uniform float uDepthOfField;
 uniform float uBlurDepth;
 
-varying vec2 texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
-   float depthTexture = abs(uBlurDepth - texture2D(Depth, texCoord).x);
+   float depthTexture = abs(uBlurDepth - texture2D(Depth, vTexCoord).x);
    vec2 offset = vec2(1.0, 0.0) * (depthTexture / uDepthOfField);
    
    vec4 colorBlurX = vec4(0.0);
    
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
+   colorBlurX += texture2D( Texture, vTexCoord + offset * -2.0) * 0.1;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
+   colorBlurX += texture2D( Texture, vTexCoord + offset * -1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord) * 0.4;
+   colorBlurX += texture2D( Texture, vTexCoord) * 0.4;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * 1.0) * 0.2;
+   colorBlurX += texture2D( Texture, vTexCoord + offset * 1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurX += texture2D( Texture, texCoord + offset * 2.0) * 0.1;
+   colorBlurX += texture2D( Texture, vTexCoord + offset * 2.0) * 0.1;
    
    
    gl_FragColor = colorBlurX;
@@ -1547,13 +1541,13 @@ void main(void)
    <RmGLPass NAME="DOFBlurY" API="OpenGL" PASS_INDEX="9" ENABLED="TRUE">
     <RmModelReference NAME="ScreenAlignedQuad" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2  texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
    gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
    gl_Position = sign( gl_Position );
-   texCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+   vTexCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
 }]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 uniform sampler2D Texture;
@@ -1561,39 +1555,40 @@ uniform sampler2D Depth;
 uniform float uDepthOfField;
 uniform float uBlurDepth;
 
-varying vec2 texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
-   float depthTexture = abs(uBlurDepth - texture2D(Depth, texCoord).x);
+   float depthTexture = abs(uBlurDepth - texture2D(Depth, vTexCoord).x);
    vec2 offset = vec2(0.0, 1.0) * (depthTexture / uDepthOfField);
    
    vec4 colorBlurY = vec4(0.0);
    
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * -2.0) * 0.1;
+   colorBlurY += texture2D( Texture, vTexCoord + offset * -2.0) * 0.1;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * -1.0) * 0.2;
+   colorBlurY += texture2D( Texture, vTexCoord + offset * -1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord) * 0.4;
+   colorBlurY += texture2D( Texture, vTexCoord) * 0.4;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * 1.0) * 0.2;
+   colorBlurY += texture2D( Texture, vTexCoord + offset * 1.0) * 0.2;
    // Collect samples using offset, area coverage parameter and multibly by the kernel weight
-   colorBlurY += texture2D( Texture, texCoord + offset * 2.0) * 0.1;
+   colorBlurY += texture2D( Texture, vTexCoord + offset * 2.0) * 0.1;
    
    
    gl_FragColor = colorBlurY;
 }]]></RmShaderCode></RmGLShader>
+    <RmRenderTarget NAME="DOFBlurY" API="" INDEX="0" RENDER_TO_SCREEN="FALSE" COLOR_CLEAR="TRUE" DEPTH_CLEAR="TRUE" CLEAR_COLOR_VALUE="-16777216" DEPTH_CLEAR_VALUE="1.000000"/>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
+    <RmTextureObject NAME="Depth" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
+     <RmTextureReference NAME="BaseDepthMap" API=""/>
+    </RmTextureObject>
     <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
      <RmTextureReference NAME="DOFBlurX" API=""/>
      <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
      <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
      <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
      <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
-    </RmTextureObject>
-    <RmTextureObject NAME="Depth" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="BaseDepthMap" API=""/>
     </RmTextureObject>
     <RmSampler NAME="Depth" API="" REGISTER="-1"/>
     <RmSampler NAME="Texture" API="" REGISTER="-1"/>
@@ -1603,40 +1598,31 @@ void main(void)
    <RmGLPass NAME="RadialBlur" API="OpenGL" PASS_INDEX="10" ENABLED="TRUE">
     <RmModelReference NAME="Model" API=""/>
     <RmGLShader NAME="Vertex Program" API="OpenGL" PIXEL_SHADER="FALSE"><RmShaderCode TYPE="TEXT"><![CDATA[
-varying vec2 texCoord;
+
+varying vec2 vTexCoord;
 
 void main(void)
 {
    gl_Position = vec4( gl_Vertex.xy, 0.0, 1.0 );
    gl_Position = sign( gl_Position );
-   
-   // Texture coordinate for screen aligned (in correct range):
-   texCoord = (vec2( gl_Position.x, - gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );
-}
-
-
-/*
-void main(void)
-{
-   gl_Position = ftransform();
-}
-*/]]></RmShaderCode></RmGLShader>
+   vTexCoord = (vec2( gl_Position.x, gl_Position.y ) + vec2( 1.0 ) ) / vec2( 2.0 );     
+}]]></RmShaderCode></RmGLShader>
     <RmGLShader NAME="Fragment Program" API="OpenGL" PIXEL_SHADER="TRUE"><RmShaderCode TYPE="TEXT"><![CDATA[
 
 uniform sampler2D Texture;
 uniform float uRadialBlurIntensity;
 uniform float uRadialSampleArea;
 
-varying vec2 texCoord;
+varying vec2 vTexCoord;
 
 void main(void)
 {
    // Sample list
    float samples[9];
-   samples[0] = (-0.0001);
-   samples[1] = (-0.0044);
-   samples[2] = (-0.0540);
-   samples[3] = (-0.2420);
+   samples[0] = ( 0.0001);
+   samples[1] = ( 0.0044);
+   samples[2] = ( 0.0540);
+   samples[3] = ( 0.2420);
    samples[4] = ( 0.3989);
    samples[5] = ( 0.2420);
    samples[6] = ( 0.0540);
@@ -1644,7 +1630,7 @@ void main(void)
    samples[8] = ( 0.0001);
    
    // Create a vector pointing towards the screen center
-   vec2 direction = 0.5 - texCoord;
+   vec2 direction = 0.5 - vTexCoord;
    
    // Calculate distance to the screen center
    float dist = sqrt((direction.x * direction.x) + (direction.y * direction.y));
@@ -1653,23 +1639,15 @@ void main(void)
    direction /= dist;
    
    // Create an unchanged and one empty color
-   vec4 color = texture2D(Texture, texCoord);
+   vec4 color = texture2D(Texture, vTexCoord);
    vec4 outCol = color;
    
    // Collect samples towards the center of the screen
    for (int i = 0; i < 9; i++)
    {
-      // 
-      outCol += texture2D( Texture, texCoord + direction * samples[i] );
-      outCol *= uRadialSampleArea;
+      // Apply and add textures blurred using the direction and samples
+      outCol += texture2D( Texture, vTexCoord + direction * samples[i] * uRadialSampleArea);
    }
-   
-   
-    //   for (int i = 0; i < 10; i++)
-    //{
-    //  sum += texture2D( tex, uv + dir * samples[i] * sampleDist );
-    //}
-    
     
    // Divide by the number of samples
    outCol *= 1.0 / 9.0;
@@ -1680,53 +1658,17 @@ void main(void)
    
    //Blend the original color with the averaged pixels
    gl_FragColor = mix(color, outCol, t);
-}
-   
-   
-   
-   /*
-   void main(void)
-   {
-   // Create a vec2 holding values 0.5
-   vec2 centerCoords = vec2(0.5, 0.5);
-   
-   // Create a vec2 holding texCoord with 0.5 subtracted
-   vec2 textureCenter = texCoord - centerCoords;
-   
-   // Create an empty vec4 for output
-   vec4 outCol = vec4(0.0);
-   
-   // Perform a loop of 24 iterations
-   for(int i = 0; i < 24; i++)
-   {
-      // Add a texture with
-      outCol += texture2D(Texture, centerCoords + textureCenter);
-      textureCenter += textureCenter * uRadialBlurIntensity;
-   }
-   
-   outCol /= 24.0;
-   
-   gl_FragColor = vec4(vec3(outCol.xyz), 1.0);
-}
-*/
-]]></RmShaderCode></RmGLShader>
+}]]></RmShaderCode></RmGLShader>
     <RmStreamMapReference NAME="Stream Mapping" API=""/>
     <RmTextureObject NAME="Texture" API="OpenGL" STATE_INDEX="0" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="DiffuseTexture" API=""/>
-     <RmState NAME="GL_TextureMinify" API="OpenGL" STATE="4" VALUE="6" USAGE="SAMPLER_STATE"/>
-     <RmState NAME="GL_TextureMagnify" API="OpenGL" STATE="5" VALUE="1" USAGE="SAMPLER_STATE"/>
-     <RmState NAME="GL_TextureWrapS" API="OpenGL" STATE="1" VALUE="5" USAGE="SAMPLER_STATE"/>
-     <RmState NAME="GL_TextureWrapT" API="OpenGL" STATE="2" VALUE="5" USAGE="SAMPLER_STATE"/>
-    </RmTextureObject>
-    <RmTextureObject NAME="Depth" API="OpenGL" STATE_INDEX="1" VERTEX_TEXTURE="FALSE">
-     <RmTextureReference NAME="BaseDepthMap" API=""/>
+     <RmTextureReference NAME="DOFBlurY" API=""/>
     </RmTextureObject>
     <RmSampler NAME="Texture" API="" REGISTER="-1"/>
     <RmShaderConstant NAME="uRadialBlurIntensity" API="" REGISTER="-1"/>
     <RmShaderConstant NAME="uRadialSampleArea" API="" REGISTER="-1"/>
    </RmGLPass>
   </RmOpenGLEffect>
-  <RmVectorVariable NAME="vViewPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewPosition" VALUE_0="0.000000" VALUE_1="0.000000" VALUE_2="-11.088994" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
+  <RmVectorVariable NAME="vViewPosition" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="ViewPosition" VALUE_0="0.053660" VALUE_1="-0.045972" VALUE_2="-0.409364" VALUE_3="1.000000" MIN="-10.000000" MAX="10.000000" CLAMP="FALSE" NORMALIZE="FALSE"/>
   <RmDynamicVariable NAME="Light1Pos" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VARIABLE_TYPE="FLOAT" ROWS="3" COLUMNS="1" FIXED_SIZE="TRUE" MIN="-1.000000" MAX="1.000000" CLAMP="FALSE" NORMALIZE="FALSE">
    <RmDynamicVariableValueContainer>
     <RmDynamicVariableValue ROW_INDEX="0" COLUMN_INDEX="0" VALUE="0.000000"/>
@@ -1737,10 +1679,9 @@ void main(void)
   <RmFloatVariable NAME="uBlurArea" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.004000" MIN="0.000000" MAX="0.100000" CLAMP="TRUE"/>
   <RmFloatVariable NAME="uBlurDepth" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.410000" MIN="0.000000" MAX="1.000000" CLAMP="TRUE"/>
   <RmFloatVariable NAME="uDepthOfField" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="500.000000" MIN="20.000000" MAX="500.000000" CLAMP="TRUE"/>
-  <RmFloatVariable NAME="uRadialBlurIntensity" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="2.100000" MIN="0.000000" MAX="10.000000" CLAMP="FALSE"/>
-  <RmFloatVariable NAME="uRadialSampleArea" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.880000" MIN="0.000000" MAX="2.000000" CLAMP="TRUE"/>
+  <RmFloatVariable NAME="uRadialBlurIntensity" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="15.000000" MIN="0.000000" MAX="15.000000" CLAMP="TRUE"/>
+  <RmFloatVariable NAME="uRadialSampleArea" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" VALUE="0.200000" MIN="0.000000" MAX="10.000000" CLAMP="TRUE"/>
   <Rm2DTextureVariable NAME="LightMapTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Light_Completemap.png" ORIGIN="0"/>
-  <Rm2DTextureVariable NAME="Noise" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME=".\Noise.png" ORIGIN="0"/>
   <Rm2DTextureVariable NAME="DiffuseTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Diffuse_Complete_OCC.png" ORIGIN="0"/>
   <Rm2DTextureVariable NAME="NormalMapTexture" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="Textur_Normal_Completemap.png" ORIGIN="0"/>
   <RmRenderableTexture NAME="LightMapBlurY" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
@@ -1752,5 +1693,6 @@ void main(void)
   <RmRenderableTexture NAME="BaseLightVec" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="BaseLightMap" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
   <RmRenderableTexture NAME="LightMapBlurX" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
+  <RmRenderableTexture NAME="DOFBlurY" API="" ARTIST_EDITABLE="FALSE" VARIABLE_SEMANTIC="" FILE_NAME="" ORIGIN="0" WIDTH="512" HEIGHT="512" FORMAT="21" USE_VIEWPORT_DIMENSIONS="FALSE" GENERATE_MIPMAPS="TRUE" WIDTH_RATIO="1.000000" HEIGHT_RATIO="1.000000"/>
  </RmEffectWorkspace>
 </RENDER_MONKEY>
